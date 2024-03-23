@@ -1,0 +1,126 @@
+(footprint "smd_nut_test1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "J1"
+		(at -6 -5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f7ccc258-900b-4e15-9c15-39c42915d489")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Screw_Terminal_01x01"
+		(at 0 7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "21244501-636d-41bd-80a8-061f3dbe8b19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "cacophony-library:smd_nut_test"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ffca704-8c0e-431c-8616-d0db1b1f51c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c81576b1-6c1a-4b31-8f54-4210df3ee368")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec54b112-0b38-43d7-8959-4721aa7e8ea8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C2915630"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63cb0b89-6de6-4c91-9ca4-33e039ab806c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0 9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "550aad01-f411-4fa5-aa31-66945cb91a59")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at 0 -2 270)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_arc
+				(start 0 0)
+				(mid 0.348334 -1.3)
+				(end 1.3 -2.251666)
+				(width 0.9)
+			)
+		)
+		(uuid "85dc0e54-f373-4114-87bd-38a9ad048dc5")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 3 3)
+		(drill 2.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5bc33518-e712-496e-9478-a9cb04edd2c4")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 5.6 5.6)
+		(layers "F.Cu" "F.Paste")
+		(uuid "361a7db3-b78e-4570-aba0-d7dc67b87172")
+	)
+)

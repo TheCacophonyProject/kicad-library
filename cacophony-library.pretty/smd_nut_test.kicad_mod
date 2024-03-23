@@ -1,13 +1,13 @@
-(footprint "SMTSO25"
+(footprint "smd_nut_test"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -0.05 -4.1 0)
+		(at -6 -5 0)
+		(unlocked yes)
 		(layer "F.SilkS")
-		(hide yes)
-		(uuid "8f334d2b-74fe-4969-aeb2-2c3358eda6e9")
+		(uuid "686ea52e-1d5d-4df8-9d03-c74b1b7da429")
 		(effects
 			(font
 				(size 1 1)
@@ -15,10 +15,11 @@
 			)
 		)
 	)
-	(property "Value" "SMTSO25"
-		(at 0 3.8 0)
+	(property "Value" "smd_nut_test"
+		(at 0 7 0)
+		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "d084ce17-8e04-4989-b802-f4cbb120108c")
+		(uuid "24ced8ca-35ad-4ade-9225-480801caea03")
 		(effects
 			(font
 				(size 1 1)
@@ -31,10 +32,11 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "694b1c65-be35-4060-bf60-38f94f293d6f")
+		(uuid "1b47db29-e316-473b-a783-6101093ec614")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -43,10 +45,11 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "75d6ee1d-b496-4149-b83c-180795a00bf6")
+		(uuid "ff48b06f-7568-42cc-a8b7-b6ad0752eeec")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -55,29 +58,20 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bffa4752-73c2-4480-af22-aa4b18f045e9")
+		(uuid "b98483d4-966a-480f-9415-c99dc8ee7905")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
-	(attr smd)
-	(fp_circle
-		(center 0 0)
-		(end 3.15 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "255d33da-6138-493c-99d6-6bb157fb5def")
-	)
+	(attr through_hole)
 	(fp_text user "${REFERENCE}"
-		(at 0 -3.7 0)
+		(at 0 9 0)
+		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "d7657bb3-2dff-494e-a520-d6a49c34abb2")
+		(uuid "de7d6089-4745-4663-8acb-48faf88d1b3e")
 		(effects
 			(font
 				(size 1 1)
@@ -101,7 +95,7 @@
 				(width 0.9)
 			)
 		)
-		(uuid "6df13b5a-893b-4d91-b7d4-3ca41ada83e2")
+		(uuid "c1f00557-b064-4bba-82e9-cd539af21601")
 	)
 	(pad "1" smd custom
 		(at 0 -2.6 270)
@@ -119,21 +113,21 @@
 				(width 0.9)
 			)
 		)
-		(uuid "566e4cf2-59cc-4749-b01f-b6638e04908c")
+		(uuid "dd9fecc8-32d0-4109-a355-8c60e6ba00f0")
 	)
 	(pad "1" thru_hole circle
 		(at 0 0)
-		(size 4.32 4.32)
+		(size 4.6 4.6)
 		(drill 4.22)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "9e1ff3da-2c78-4ffb-b475-084250a2dc58")
+		(uuid "bef47d4d-0b28-4f3b-afd0-1b7c3813c4b0")
 	)
 	(pad "1" smd circle
 		(at 0 0)
 		(size 6.2 6.2)
-		(layers "F.Cu" "F.Paste")
-		(uuid "72cfcca0-5495-494f-9025-0b0adcf55ce2")
+		(layers "F.Cu" "F.Mask")
+		(uuid "22d70b6d-7178-44f8-98d5-bfc9c41a9aa3")
 	)
 	(pad "1" smd custom
 		(at 0 2.6 90)
@@ -151,7 +145,7 @@
 				(width 0.9)
 			)
 		)
-		(uuid "c073f532-b33a-48fe-bb06-f6acf1b2e20e")
+		(uuid "1fa2d8c2-83e0-43dd-b123-f1b18c580885")
 	)
 	(pad "1" smd custom
 		(at 2.6 0 180)
@@ -169,17 +163,6 @@
 				(width 0.9)
 			)
 		)
-		(uuid "11346ff8-dbfa-47c8-89cb-808806b340c6")
-	)
-	(model "${CAC_KICAD_LIBRARY}/cacophony-library.3dshapes/SMD_BD4.4-L4.4-D2.8.wrl"
-		(offset
-			(xyz 0 0 -1.5)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
+		(uuid "d62a9a33-95a0-45b6-b6e8-8d21afaabcd0")
 	)
 )

@@ -1,4 +1,4 @@
-(footprint "SMTSO25"
+(footprint "SMTSO25_old"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "SMTSO25"
+	(property "Value" "SMTSO25_old"
 		(at 0 3.8 0)
 		(layer "F.Fab")
 		(uuid "d084ce17-8e04-4989-b802-f4cbb120108c")
@@ -131,9 +131,9 @@
 	)
 	(pad "1" smd circle
 		(at 0 0)
-		(size 6.2 6.2)
-		(layers "F.Cu" "F.Paste")
-		(uuid "72cfcca0-5495-494f-9025-0b0adcf55ce2")
+		(size 4.5 4.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "8495f01b-ba0e-4279-b10b-1dc91ce8307b")
 	)
 	(pad "1" smd custom
 		(at 0 2.6 90)

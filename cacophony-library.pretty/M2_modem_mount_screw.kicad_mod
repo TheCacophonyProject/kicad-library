@@ -1,4 +1,4 @@
-(footprint "SMD_BD4.4-L4.4-D2.8"
+(footprint "M2_modem_mount_screw"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -6,7 +6,6 @@
 	(property "Reference" "REF**"
 		(at 0 -3.2 0)
 		(layer "F.SilkS")
-		(hide yes)
 		(uuid "8f334d2b-74fe-4969-aeb2-2c3358eda6e9")
 		(effects
 			(font
@@ -15,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "SMD_BD4.4-L4.4-D2.8"
+	(property "Value" "M2_modem_mount_screw"
 		(at 0 5.47 0)
 		(layer "F.Fab")
 		(uuid "d084ce17-8e04-4989-b802-f4cbb120108c")
@@ -31,7 +30,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "639c5929-b17c-4f27-b9c1-b414a8f9c6cf")
+		(uuid "c09e5f6f-9d41-4ba3-868f-1f8fb4780a8e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +42,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d90bf8de-cdab-4fb5-bff7-e4fa88c216fd")
+		(uuid "ee7d15d3-f4f9-428c-9679-d2b81d157ca3")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,7 +54,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e28656df-a1f9-4e7e-be19-f5f867f7af40")
+		(uuid "903b3305-1947-43c3-b645-b94bbe48b09b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -65,47 +64,47 @@
 	(attr smd)
 	(fp_arc
 		(start -1.9 0)
-		(mid -1.64488 -0.950984)
-		(end -0.948032 -1.646583)
+		(mid -1.661821 -0.92106)
+		(end -1.006998 -1.611197)
 		(stroke
 			(width 0.7)
 			(type default)
 		)
 		(layer "F.Paste")
-		(uuid "957c636f-b1ab-47b0-8919-23572a9f1ac0")
+		(uuid "afa00bf5-94d2-4bf9-a1c8-31a13aed75f4")
 	)
 	(fp_arc
-		(start -0.000005 -1.900001)
-		(mid 0.950979 -1.644882)
-		(end 1.646578 -0.948033)
+		(start 0 -1.9)
+		(mid 0.92106 -1.661821)
+		(end 1.611197 -1.006998)
 		(stroke
 			(width 0.7)
 			(type default)
 		)
 		(layer "F.Paste")
-		(uuid "721a5d58-de03-40e2-8d69-ac7b0d4e88c8")
+		(uuid "bd72e896-0000-49f6-b4a2-baac2bbe0857")
 	)
 	(fp_arc
-		(start 0 1.899998)
-		(mid -0.950984 1.644878)
-		(end -1.646583 0.94803)
+		(start 0 1.9)
+		(mid -0.92106 1.661821)
+		(end -1.611197 1.006998)
 		(stroke
 			(width 0.7)
 			(type default)
 		)
 		(layer "F.Paste")
-		(uuid "71a5460f-947f-405b-89d8-a4542f937d78")
+		(uuid "4e39d1fc-0891-4631-ada0-590d7015b5f4")
 	)
 	(fp_arc
-		(start 1.899996 -0.000006)
-		(mid 1.644877 0.950978)
-		(end 0.948028 1.646577)
+		(start 1.9 0)
+		(mid 1.661821 0.92106)
+		(end 1.006998 1.611197)
 		(stroke
 			(width 0.7)
 			(type default)
 		)
 		(layer "F.Paste")
-		(uuid "c97e13b1-a79a-4203-aab3-4c9891a7d410")
+		(uuid "a12055eb-08bf-486c-9381-4ff2298f9815")
 	)
 	(fp_circle
 		(center 0 0)
@@ -120,14 +119,14 @@
 	)
 	(fp_circle
 		(center 0 0)
-		(end 2.4 0)
+		(end 3.1 0)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill none)
 		(layer "F.CrtYd")
-		(uuid "3b16cdc4-4970-496b-92f6-78384fbfaebd")
+		(uuid "88b2a1db-f2d9-4d64-86e1-5d56df8b2d83")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -3.2 0)
@@ -146,6 +145,7 @@
 		(drill 2.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(clearance 1.5)
 		(uuid "9e1ff3da-2c78-4ffb-b475-084250a2dc58")
 	)
 	(model "${CAC_KICAD_LIBRARY}/cacophony-library.3dshapes/SMD_BD4.4-L4.4-D2.8.wrl"

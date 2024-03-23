@@ -294,9 +294,14 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
   )
-  (model "${CAC_KICAD_LIBRARY}/cacophony-library.3dshapes/RaspberryPi3B.step"
-    (opacity 0.2000)    (offset (xyz 0 0 15))
+  (model "${CAC_KICAD_LIBRARY}/drawings/RaspberryPi3B-Body.step" hide
+    (opacity 0.5000)    (offset (xyz 0 0 15))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
+  )
+  (model "${CAC_KICAD_LIBRARY}/drawings/rpi-zero-2-w.step"
+    (opacity 0.3100)    (offset (xyz 0 0 18.1))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -180 0 0))
   )
 )
