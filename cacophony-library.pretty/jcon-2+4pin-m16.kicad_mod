@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "jcon-2+4pin-m16"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -67,7 +67,7 @@
 	(attr through_hole)
 	(fp_circle
 		(center 0 0)
-		(end 11 0)
+		(end 12.5 0)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -89,7 +89,7 @@
 	)
 	(fp_circle
 		(center 0 0)
-		(end 11 0)
+		(end 12.5 0)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -113,17 +113,17 @@
 	(pad "1" thru_hole circle
 		(at -2.25 1.58 90)
 		(size 3 3)
-		(drill 2)
+		(drill 1.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(clearance 0.3)
-		(thermal_gap 0.5)
+		(thermal_gap 0.7)
 		(uuid "b4d3cfee-8cbb-4cde-860f-a1ca74f162e6")
 	)
 	(pad "2" thru_hole oval
 		(at -3 -1.24 90)
 		(size 2 2.6)
-		(drill 1.4
+		(drill 1.3
 			(offset 0 -0.3)
 		)
 		(layers "*.Cu" "*.Mask")
@@ -134,7 +134,7 @@
 	(pad "3" thru_hole oval
 		(at -1.25 -3 110)
 		(size 2.6 2)
-		(drill 1.4
+		(drill 1.3
 			(offset 0.3 0)
 		)
 		(layers "*.Cu" "*.Mask")
@@ -145,7 +145,7 @@
 	(pad "4" thru_hole oval
 		(at 1.25 -3 160)
 		(size 2 2.6)
-		(drill 1.4
+		(drill 1.3
 			(offset 0 0.3)
 		)
 		(layers "*.Cu" "*.Mask")
@@ -156,7 +156,7 @@
 	(pad "5" thru_hole oval
 		(at 3 -1.24)
 		(size 2.6 2)
-		(drill 1.4
+		(drill 1.3
 			(offset 0.3 0)
 		)
 		(layers "*.Cu" "*.Mask")
@@ -167,11 +167,11 @@
 	(pad "6" thru_hole circle
 		(at 2.25 1.58 90)
 		(size 3 3)
-		(drill 2)
+		(drill 1.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(clearance 0.3)
-		(thermal_gap 0.5)
+		(thermal_gap 0.7)
 		(uuid "c3cb13b2-a297-4fc8-98b5-d3b288a6904b")
 	)
 )

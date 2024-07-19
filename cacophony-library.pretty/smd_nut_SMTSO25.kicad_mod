@@ -7,6 +7,7 @@
 		(at -6 -5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "686ea52e-1d5d-4df8-9d03-c74b1b7da429")
 		(effects
 			(font
@@ -27,7 +28,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "smd_nut_SMTSO25"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -66,7 +67,7 @@
 			)
 		)
 	)
-	(attr through_hole)
+	(attr smd)
 	(fp_arc
 		(start -2.600004 0.000002)
 		(mid -2.223396 -1.347784)
@@ -136,10 +137,18 @@
 	)
 	(pad "1" thru_hole circle
 		(at 0 0)
-		(size 6.2 6.2)
+		(size 4.42 4.42)
 		(drill 4.22)
+		(property pad_prop_heatsink)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(uuid "197b5c37-9577-47b9-8f10-528067714e10")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 6.2 6.2)
+		(property pad_prop_heatsink)
+		(layers "F.Cu" "F.Mask")
 		(uuid "bef47d4d-0b28-4f3b-afd0-1b7c3813c4b0")
 	)
 )

@@ -1,0 +1,135 @@
+(footprint "Touch_Pad"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -7.21 -10.77 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6e409a4f-1cb2-447a-a9eb-d1d01094dfeb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Touch_Pad"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "911f090b-77ad-45ae-8983-0ef9b23f55a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1d14b74-53dc-44d8-9c5e-2b37f8bc554c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e33b9e4-af2e-42c7-ae94-bc741d82024f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8062de38-f2df-4634-b029-d6d917a85d9f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "10c24567-0326-4b30-9d7b-5f4d29aa1479")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at 0 0)
+		(size 2 2)
+		(layers "F.Cu")
+		(clearance 2)
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.81 6.891904) (xy -0.819056 7.18) (xy -0.842711 7.958029) (xy -1.399887 7.879131) (xy -1.950141 7.761271)
+					(xy -2.490752 7.605034) (xy -3.019047 7.41119) (xy -3.532413 7.1807) (xy -4.028312 6.914701) (xy -4.504291 6.614511)
+					(xy -4.957997 6.281613) (xy -5.387186 5.917653) (xy -5.789737 5.524431) (xy -6.163658 5.103892)
+					(xy -6.507101 4.658114) (xy -6.818367 4.189303) (xy -7.095918 3.699777) (xy -7.33838 3.191955)
+					(xy -7.544555 2.66835) (xy -7.713423 2.13155) (xy -7.844149 1.58421) (xy -7.936087 1.029037) (xy -7.988783 0.468775)
+					(xy -8.001975 -0.093806) (xy -7.975598 -0.655922) (xy -7.909783 -1.214795) (xy -7.804856 -1.767661)
+					(xy -7.661334 -2.311786) (xy -7.479929 -2.844479) (xy -7.261536 -3.363107) (xy -7.007236 -3.865105)
+					(xy -6.718286 -4.347991) (xy -6.396116 -4.809376) (xy -6.042317 -5.24698) (xy -5.65864 -5.658638)
+					(xy -5.246982 -6.042315) (xy -4.809378 -6.396114) (xy -4.347993 -6.718285) (xy -3.865107 -7.007235)
+					(xy -3.363109 -7.261535) (xy -2.844481 -7.479927) (xy -2.311788 -7.661333) (xy -1.767663 -7.804855)
+					(xy -1.214797 -7.909782) (xy -0.655924 -7.975597) (xy -0.093808 -8.001974) (xy 0.468773 -7.988782)
+					(xy 1.029035 -7.936086) (xy 1.584208 -7.844148) (xy 2.131548 -7.713422) (xy 2.668348 -7.544554)
+					(xy 3.191953 -7.338379) (xy 3.699775 -7.095917) (xy 4.189301 -6.818367) (xy 4.658113 -6.507101)
+					(xy 5.10389 -6.163658) (xy 5.524429 -5.789737) (xy 5.917651 -5.387186) (xy 6.281611 -4.957997)
+					(xy 6.614509 -4.504291) (xy 6.9147 -4.028311) (xy 7.180698 -3.532413) (xy 7.411189 -3.019047) (xy 7.605033 -2.490752)
+					(xy 7.76127 -1.950141) (xy 7.87913 -1.399887) (xy 7.958028 -0.842711) (xy 7.997575 -0.281367) (xy 7.999998 0)
+					(xy 0 0)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(arc
+						(start 7.998426 0)
+						(mid 7.455495 2.896621)
+						(end 5.900408 5.4)
+					)
+					(arc
+						(start 1.000002 5.4)
+						(mid -0.272792 5.927208)
+						(end -0.8 7.2)
+					)
+					(xy -0.819056 7.18) (xy -0.819056 0)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "a9b6b985-f6a9-4c81-b46f-fa83c1052fb1")
+	)
+)

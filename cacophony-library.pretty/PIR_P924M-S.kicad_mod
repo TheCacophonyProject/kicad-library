@@ -1,0 +1,193 @@
+(footprint "PIR_P924M-S"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "U5"
+		(at 0 5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "58d3da4f-e590-4f6b-809b-a5fef1d8efbd")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PIR_P924M-S"
+		(at 0 -7.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "51df39c1-8566-4714-ac9b-6ccb8d092621")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "cacophony-footprints:PIR_P924M-S"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c55130e5-2152-43b5-93e3-2597f82fd1fd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811101110_Shanghai-Nicera-Sensor-P924M-S_C139580.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e6020be0-296f-4f1c-b729-623fdb95a2a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90218a6e-7dc5-49dc-a248-de9acd7862fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "JLCPCB" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85b395c3-3339-4f8f-affc-6e139f9ddf6a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C139580"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2bd42e2f-a017-40aa-a621-72d995443e33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 0 4.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "382977a7-2fb0-4d1e-a0ad-68d0eee9d628")
+	)
+	(fp_poly
+		(pts
+			(xy 4.2 3.5) (xy 3.5 4.2) (xy 2.9 3.6) (xy 3.3 3.3) (xy 3.6 2.9)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "4fb460b6-c628-433f-9ab3-9c4a2b6654d4")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.9 3.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "77e7de79-4a7f-4d40-995d-249dab2eee7f")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 11 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "User.2")
+		(uuid "83fff90e-aaaa-47a6-a5f2-de0220a2805f")
+	)
+	(fp_poly
+		(pts
+			(xy 9 7.8) (xy 8.2 8.6) (xy 7.6 8) (xy 8.4 7.2)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "User.2")
+		(uuid "bc1c6ab1-47fc-40a0-b2f5-3a1f8a02d5c0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -12.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7731c37d-b8f3-4315-b4a5-e8b657eaf4c5")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 2.5)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0e21ad98-7a13-4c51-b2e4-fcab28720fd4")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3c007839-befa-4621-8634-11cdccd04f32")
+	)
+	(pad "3" thru_hole circle
+		(at 0 -2.5)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6e9eb9fd-e7b7-40ae-aed5-daf4e507a272")
+	)
+	(pad "4" thru_hole circle
+		(at -2.5 0)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0afcbe09-52be-4f24-b5b8-0f089e995e6e")
+	)
+)

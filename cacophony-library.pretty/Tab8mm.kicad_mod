@@ -1,0 +1,118 @@
+(footprint "Tab8mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "A symbol representing annotation for tab placement")
+	(property "Reference" "REF**"
+		(at -0.25 -2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4b0d90d9-4a87-4663-bf4c-5132f4fbc9d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Tab8mm"
+		(at -3 -1 0)
+		(layer "Dwgs.User")
+		(uuid "9b2a1465-ad9b-4dd8-a14d-6d3c95db8ab1")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Footprint" "Tab8mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "017bf20d-55f3-447f-aac2-4cc24a2f7c6b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6eb0d33-1575-4b91-b34e-bd72c8057c88")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "893dedfd-ff8c-43fb-a4f2-4fa612c7bbe8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(fp_line
+		(start 0 0)
+		(end -3 0)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "a3568918-8772-491f-8a19-c996a0bd0c7a")
+	)
+	(fp_line
+		(start 0 0)
+		(end -1 -1)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "a699de32-8ce9-4a00-ab6d-e5a65caf46bc")
+	)
+	(fp_line
+		(start 0 0)
+		(end -1 1)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "0195d6f2-2771-4816-bad3-be1baaf7206e")
+	)
+	(fp_line
+		(start 0 1)
+		(end 0 -1)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "2236fcf9-85dc-4d87-8820-4067c85b9a01")
+	)
+	(fp_text user "KIKIT: width: 3mm"
+		(at -5.5 0 90)
+		(layer "Dwgs.User")
+		(uuid "810d02df-e03f-4e90-aebf-49690f095aa5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+)

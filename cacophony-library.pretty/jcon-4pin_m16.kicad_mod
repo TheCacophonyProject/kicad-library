@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "jcon-4pin_m16"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -134,8 +134,7 @@
 		(drill 1.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(clearance 0.5)
-		(thermal_gap 0.5)
+		(thermal_gap 0.7)
 		(uuid "e54ad8d8-f559-4bd3-90be-2d3642994886")
 	)
 	(pad "2" thru_hole circle
@@ -144,8 +143,7 @@
 		(drill 1.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(clearance 0.5)
-		(thermal_gap 0.5)
+		(thermal_gap 0.7)
 		(uuid "966f2ba4-ed82-4653-8954-739bb7313f30")
 	)
 	(pad "3" thru_hole circle
@@ -154,8 +152,7 @@
 		(drill 1.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(clearance 0.5)
-		(thermal_gap 0.5)
+		(thermal_gap 0.7)
 		(uuid "78280e2e-25b0-4c07-b663-bde3a43a23fc")
 	)
 	(pad "4" thru_hole circle
@@ -164,8 +161,7 @@
 		(drill 1.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(clearance 0.5)
-		(thermal_gap 0.5)
+		(thermal_gap 0.7)
 		(uuid "b71f07c0-5c2f-40de-a251-030c75bde3b3")
 	)
 )
