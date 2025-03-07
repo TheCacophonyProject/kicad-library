@@ -128,6 +128,48 @@
 		(uuid "8561cd3e-eb42-49ee-a984-1dd6164bea9a")
 	)
 	(pad "1" smd custom
+		(at -1.8 0 180)
+		(size 0.22 0.22)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_rect
+				(start -0.29 -0.3)
+				(end 0.29 0.28)
+				(width 0.001)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy -0.32 0.2) (xy -0.41 0.61) (xy -0.41 0.63) (xy 0.28 0.63) (xy 0.283984 0.629619) (xy 0.289619 0.623984)
+					(xy 0.29 0.62) (xy 0.29 0.19) (xy 0.289619 0.186016) (xy 0.283984 0.180381) (xy 0.28 0.18) (xy -0.31 0.18)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_arc
+				(start -0.410001 -0.58)
+				(mid -0.294632 0)
+				(end -0.410001 0.58)
+				(width 0.1)
+			)
+			(gr_poly
+				(pts
+					(xy -0.32 -0.2) (xy -0.41 -0.61) (xy -0.41 -0.63) (xy 0.28 -0.63) (xy 0.283984 -0.629619) (xy 0.289619 -0.623984)
+					(xy 0.29 -0.62) (xy 0.29 -0.19) (xy 0.289619 -0.186016) (xy 0.283984 -0.180381) (xy 0.28 -0.18)
+					(xy -0.31 -0.18)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "782f05e8-dd20-4605-9069-4f7fddaa8b00")
+	)
+	(pad "2" smd custom
 		(at 1.8 0)
 		(size 0.22 0.22)
 		(layers "F.Cu" "F.Paste" "F.Mask")
@@ -168,47 +210,5 @@
 			)
 		)
 		(uuid "06bb94d1-64d4-48e2-a3cb-7fc209fd5db2")
-	)
-	(pad "2" smd custom
-		(at -1.8 0 180)
-		(size 0.22 0.22)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(thermal_bridge_angle 90)
-		(options
-			(clearance outline)
-			(anchor circle)
-		)
-		(primitives
-			(gr_rect
-				(start 0.29 0.28)
-				(end -0.29 -0.3)
-				(width 0.001)
-				(fill yes)
-			)
-			(gr_poly
-				(pts
-					(xy -0.32 0.2) (xy -0.41 0.61) (xy -0.41 0.63) (xy 0.28 0.63) (xy 0.283984 0.629619) (xy 0.289619 0.623984)
-					(xy 0.29 0.62) (xy 0.29 0.19) (xy 0.289619 0.186016) (xy 0.283984 0.180381) (xy 0.28 0.18) (xy -0.31 0.18)
-				)
-				(width 0)
-				(fill yes)
-			)
-			(gr_arc
-				(start -0.410001 -0.58)
-				(mid -0.294632 0)
-				(end -0.410001 0.58)
-				(width 0.1)
-			)
-			(gr_poly
-				(pts
-					(xy -0.32 -0.2) (xy -0.41 -0.61) (xy -0.41 -0.63) (xy 0.28 -0.63) (xy 0.283984 -0.629619) (xy 0.289619 -0.623984)
-					(xy 0.29 -0.62) (xy 0.29 -0.19) (xy 0.289619 -0.186016) (xy 0.283984 -0.180381) (xy 0.28 -0.18)
-					(xy -0.31 -0.18)
-				)
-				(width 0)
-				(fill yes)
-			)
-		)
-		(uuid "782f05e8-dd20-4605-9069-4f7fddaa8b00")
 	)
 )

@@ -1,0 +1,165 @@
+(footprint "SMTWE2070MTJ"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8f334d2b-74fe-4969-aeb2-2c3358eda6e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMTWE2070MTJ"
+		(at 0 5.47 0)
+		(layer "F.Fab")
+		(uuid "d084ce17-8e04-4989-b802-f4cbb120108c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "639c5929-b17c-4f27-b9c1-b414a8f9c6cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d90bf8de-cdab-4fb5-bff7-e4fa88c216fd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e28656df-a1f9-4e7e-be19-f5f867f7af40")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_arc
+		(start -1.9 0)
+		(mid -1.64488 -0.950984)
+		(end -0.948032 -1.646583)
+		(stroke
+			(width 0.7)
+			(type default)
+		)
+		(layer "F.Paste")
+		(uuid "957c636f-b1ab-47b0-8919-23572a9f1ac0")
+	)
+	(fp_arc
+		(start -0.000005 -1.900001)
+		(mid 0.950979 -1.644882)
+		(end 1.646578 -0.948033)
+		(stroke
+			(width 0.7)
+			(type default)
+		)
+		(layer "F.Paste")
+		(uuid "721a5d58-de03-40e2-8d69-ac7b0d4e88c8")
+	)
+	(fp_arc
+		(start 0 1.899998)
+		(mid -0.950984 1.644878)
+		(end -1.646583 0.94803)
+		(stroke
+			(width 0.7)
+			(type default)
+		)
+		(layer "F.Paste")
+		(uuid "71a5460f-947f-405b-89d8-a4542f937d78")
+	)
+	(fp_arc
+		(start 1.899996 -0.000006)
+		(mid 1.644877 0.950978)
+		(end 0.948028 1.646577)
+		(stroke
+			(width 0.7)
+			(type default)
+		)
+		(layer "F.Paste")
+		(uuid "c97e13b1-a79a-4203-aab3-4c9891a7d410")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.35 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "255d33da-6138-493c-99d6-6bb157fb5def")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.4 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "3b16cdc4-4970-496b-92f6-78384fbfaebd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3.2 0)
+		(layer "F.Fab")
+		(uuid "d7657bb3-2dff-494e-a520-d6a49c34abb2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 4.5 4.5)
+		(drill 2.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9e1ff3da-2c78-4ffb-b475-084250a2dc58")
+	)
+	(model "${CAC_KICAD_LIBRARY}/cacophony-library.3dshapes/SMTWE2070MTJ.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

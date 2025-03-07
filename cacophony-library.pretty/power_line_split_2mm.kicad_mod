@@ -1,0 +1,98 @@
+(footprint "power_line_split_2mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a7857c6f-b359-4b95-9850-50df6a5860d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "power_line_split_2mm"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dbbc7d07-2a33-44b6-84c4-e13d8f995b5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11337e6e-f157-4f86-8aef-cdc366b8023e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b51ed91-dc43-424c-9763-b1ff23ad238b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e752d22-8547-416c-8228-471c05e06f66")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard dnp)
+	(net_tie_pad_groups "1,2")
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2ab38b95-b804-4ac2-9918-29d948fb3ca0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.45 0)
+		(size 1 2)
+		(layers "F.Cu")
+		(thermal_bridge_angle 45)
+		(uuid "d5317be1-313d-44f2-b212-b05d8061b591")
+	)
+	(pad "2" smd rect
+		(at -0.45 0)
+		(size 1 2)
+		(layers "F.Cu")
+		(thermal_bridge_angle 45)
+		(uuid "39de73a9-abc3-40e6-9aa1-ff5f10a6d7e8")
+	)
+)
