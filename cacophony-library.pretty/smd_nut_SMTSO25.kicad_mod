@@ -140,7 +140,11 @@
 		(size 4.42 4.42)
 		(drill 4.22)
 		(property pad_prop_heatsink)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu"
+			"In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu" "In16.Cu" "In17.Cu"
+			"In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu" "In23.Cu" "In24.Cu"
+			"In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu" "In30.Cu"
+		)
 		(remove_unused_layers no)
 		(uuid "197b5c37-9577-47b9-8f10-528067714e10")
 	)
@@ -150,5 +154,16 @@
 		(property pad_prop_heatsink)
 		(layers "F.Cu" "F.Mask")
 		(uuid "bef47d4d-0b28-4f3b-afd0-1b7c3813c4b0")
+	)
+	(model "/home/cam/cac/kicad/kicad-library/cacophony-library.3dshapes/SMTSO2520CTJ.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )
