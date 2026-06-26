@@ -1,4 +1,4 @@
-(footprint "MountingHole_2.7mm_M2.5"
+(footprint "MountingHole_2.7mm_M2.5_test"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -9,7 +9,7 @@
 		(at 0 -4.2 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "c14c51fa-4bb2-459d-97ca-1ae039214040")
+		(uuid "e03ce3fc-e52d-495b-a314-b0a8b651251a")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 	(property "Value" "MountingHole"
 		(at 0 4.2 0)
 		(layer "F.Fab")
-		(uuid "416e6d33-d090-4326-8552-9c3478819a99")
+		(uuid "5bddde34-f2bc-43fb-b659-d5010d00a164")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3a8efcd5-4a3e-49e6-84ad-f695027c36a1")
+		(uuid "f564bec7-b8b2-4ac1-bba4-0534f0be54e1")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8390627b-d90b-4e94-93f9-94fb365f1692")
+		(uuid "7a2adcb5-162e-4cd3-bf73-bc465aab6a4d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,7 +54,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c42a1aab-be53-4885-af9f-83af46a256ee")
+		(uuid "280b603a-b97c-42f0-9f2d-29a39807aae3")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -73,12 +73,12 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "a5f375d3-6f44-4240-9340-31147da0c07b")
+		(uuid "6f95a370-6f39-49dc-b9a9-71b5618d5ab0")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "b5b5dfc3-ccb0-4fe3-9c6d-4998472d0354")
+		(uuid "4762104f-dea8-4a3a-9364-0c5c4f713e3c")
 		(effects
 			(font
 				(size 1 1)
@@ -86,20 +86,14 @@
 			)
 		)
 	)
-	(point
-		(at 2.03 -6.7)
-		(size 1)
-		(layer "F.SilkS")
-		(uuid "712e6ef1-9543-4e26-b51b-ef4e16d4e453")
-	)
-	(pad "" np_thru_hole circle
+	(pad "" thru_hole circle
 		(at 0 0)
-		(size 5.4 5.4)
+		(size 2.7 2.7)
 		(drill 2.7)
-		(layers "*.Mask")
-		(solder_mask_margin 1.7)
-		(clearance 1.7)
-		(uuid "815f90d0-3244-42fa-8477-5530ddac2414")
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(clearance 0.8)
+		(uuid "f02a5f24-81b8-4b3e-a167-6e7a3f9f9ccf")
 	)
 	(embedded_fonts no)
 )

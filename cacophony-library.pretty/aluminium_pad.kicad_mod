@@ -1,0 +1,262 @@
+(footprint "aluminium_pad"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+	(tags "resistor")
+	(property "Reference" "REF**"
+		(at 0 -1.43 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a8c30682-102f-4528-993e-5d8678642ade")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "aluminium_pad"
+		(at 0 1.43 0)
+		(layer "F.Fab")
+		(uuid "be7457fc-08f9-45f3-aef1-25e112a6789b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8cf13e59-b11b-45a1-9c04-ba5b5720db6c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f95a625d-2cdc-4239-9327-ae7f3930f2c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_arc
+		(start -3.117691 -1.8)
+		(mid -2.545584 -2.545584)
+		(end -1.8 -3.117691)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bc93a1f3-6ca7-4476-87de-de9885964ef9")
+	)
+	(fp_arc
+		(start -3.117691 1.8)
+		(mid -2.824871 0.70718)
+		(end -1.732051 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "03d28b26-ae95-48a4-ac1c-e46e6591822e")
+	)
+	(fp_arc
+		(start -1.8 -3.117691)
+		(mid -0.70718 -2.824871)
+		(end -1 -1.732051)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ed5da909-33f8-4959-953f-95eb69d0a52e")
+	)
+	(fp_arc
+		(start -1.8 3.117691)
+		(mid -2.545584 2.545584)
+		(end -3.117691 1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3259c958-05fe-434c-898d-da932d4e3261")
+	)
+	(fp_arc
+		(start -1.732051 -1)
+		(mid -2.824871 -0.70718)
+		(end -3.117691 -1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c356c5a3-3b36-4995-826d-82965d70ce06")
+	)
+	(fp_arc
+		(start -1.732051 -1)
+		(mid -1.414214 -1.414214)
+		(end -1 -1.732051)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d54f3a44-e61a-4ce6-8edb-13d87703545b")
+	)
+	(fp_arc
+		(start -1 1.732051)
+		(mid -0.70718 2.824871)
+		(end -1.8 3.117691)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c353d80a-83dc-4f0b-8743-c0b351aa752e")
+	)
+	(fp_arc
+		(start -1 1.732051)
+		(mid -1.414214 1.414214)
+		(end -1.732051 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "265f6d06-d879-4b3f-bc6f-7252e97fad41")
+	)
+	(fp_arc
+		(start 1 -1.732051)
+		(mid 1.414214 -1.414214)
+		(end 1.732051 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "173ff74d-b1bb-4630-9b95-62893f21bc58")
+	)
+	(fp_arc
+		(start 1 -1.732051)
+		(mid 0.707184 -2.824869)
+		(end 1.8 -3.117691)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0222fa73-f547-42bf-9368-e0e11acb25c3")
+	)
+	(fp_arc
+		(start 1.732051 1)
+		(mid 1.414214 1.414214)
+		(end 1 1.732051)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6c54b0c0-af5e-46b7-aae7-b98fd2db87ec")
+	)
+	(fp_arc
+		(start 1.732051 1)
+		(mid 2.82487 0.707181)
+		(end 3.117691 1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0b81eb28-2220-4a4d-9e84-ac68f1458c9f")
+	)
+	(fp_arc
+		(start 1.8 -3.117691)
+		(mid 2.545584 -2.545584)
+		(end 3.117691 -1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1a3f0994-799a-45a4-88cb-c97bbb070462")
+	)
+	(fp_arc
+		(start 1.8 3.117691)
+		(mid 0.707184 2.824869)
+		(end 1 1.732051)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "306b6e9f-2b55-42b6-ae9b-7fa0b04eebf6")
+	)
+	(fp_arc
+		(start 3.117691 -1.8)
+		(mid 2.82487 -0.707179)
+		(end 1.732051 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3f540562-777b-466c-9c07-527aebeb55a1")
+	)
+	(fp_arc
+		(start 3.117691 1.8)
+		(mid 2.545584 2.545584)
+		(end 1.8 3.117691)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cd61131e-99be-447c-ad40-ac6ce52ae1e2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.03 3.03 0)
+		(layer "F.Fab")
+		(uuid "c31e1b73-3824-41e9-ac04-68f429a74002")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 0 180)
+		(size 3 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4c797df7-0542-4d41-b781-2b0d94196327")
+	)
+	(group ""
+		(uuid "06f42c58-d926-4bf8-99d7-8e61c55a279d")
+		(members "0222fa73-f547-42bf-9368-e0e11acb25c3" "03d28b26-ae95-48a4-ac1c-e46e6591822e"
+			"0b81eb28-2220-4a4d-9e84-ac68f1458c9f" "173ff74d-b1bb-4630-9b95-62893f21bc58"
+			"1a3f0994-799a-45a4-88cb-c97bbb070462" "265f6d06-d879-4b3f-bc6f-7252e97fad41"
+			"306b6e9f-2b55-42b6-ae9b-7fa0b04eebf6" "3259c958-05fe-434c-898d-da932d4e3261"
+			"3f540562-777b-466c-9c07-527aebeb55a1" "6c54b0c0-af5e-46b7-aae7-b98fd2db87ec"
+			"bc93a1f3-6ca7-4476-87de-de9885964ef9" "c353d80a-83dc-4f0b-8743-c0b351aa752e"
+			"c356c5a3-3b36-4995-826d-82965d70ce06" "cd61131e-99be-447c-ad40-ac6ce52ae1e2"
+			"d54f3a44-e61a-4ce6-8edb-13d87703545b" "ed5da909-33f8-4959-953f-95eb69d0a52e"
+		)
+	)
+	(embedded_fonts no)
+)

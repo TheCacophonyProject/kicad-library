@@ -1,0 +1,89 @@
+(footprint "battery_heater_track"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -25.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0fe705ae-7cfb-466a-9409-4608adb14b82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "battery_heater_track"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15e2ee30-598c-4218-93e1-451b10b6e33b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9930f97b-7f45-4232-8d07-1d70ea980732")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d5cd597-0191-4866-a4ac-5de3240a4555")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(net_tie_pad_groups "1,2")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start 61.75 -22.65)
+		(end 63.025 -22.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2d3e1801-3848-4ec2-860d-a649443ab2fa")
+	)
+	(pad "1" thru_hole circle
+		(at 62 -22.4)
+		(size 0.46 0.46)
+		(drill 0.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5b1db503-bec4-4e32-818c-315be7bf40da")
+	)
+	(pad "2" thru_hole circle
+		(at 62.75 -22.4)
+		(size 0.46 0.46)
+		(drill 0.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a3aa5572-a8d6-45d1-aff4-3034a8daeeaf")
+	)
+	(embedded_fonts no)
+)

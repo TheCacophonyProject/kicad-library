@@ -56,6 +56,26 @@
 	(attr smd)
 	(net_tie_pad_groups "1,2" "3,4")
 	(fp_line
+		(start -0.475 0)
+		(end -1.2 0)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "f72d9c69-3de5-4866-aa0d-7685895c1845")
+	)
+	(fp_line
+		(start 0.475 0)
+		(end 1.1 0)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "72d1c7c8-93df-4ad5-802c-0a29cf4bf811")
+	)
+	(fp_line
 		(start -0.727064 -0.91)
 		(end 0.727064 -0.91)
 		(stroke
@@ -174,16 +194,16 @@
 		(uuid "dbad0287-b397-45bd-8a16-43e87bdf7c5c")
 	)
 	(pad "2" smd roundrect
-		(at -0.65 0)
-		(size 0.6 0.2)
+		(at -0.475 0)
+		(size 0.25 0.2)
 		(layers "F.Cu")
 		(roundrect_rratio 0.15)
 		(thermal_bridge_angle 45)
 		(uuid "fdf3705e-036f-40c9-89a5-e9a3902bb162")
 	)
 	(pad "3" smd roundrect
-		(at 0.65 0)
-		(size 0.6 0.2)
+		(at 0.475 0)
+		(size 0.25 0.2)
 		(layers "F.Cu")
 		(roundrect_rratio 0.15)
 		(thermal_bridge_angle 45)

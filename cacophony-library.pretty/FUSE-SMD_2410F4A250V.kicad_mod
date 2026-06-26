@@ -1,0 +1,152 @@
+(footprint "FUSE-SMD_2410F4A250V"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "94c744d9-dcd3-4fa0-b020-119f35467e37")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FUSE-SMD_2410F4A250V"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "afaa2e10-27c7-4e42-a499-6b5643596427")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b93a235-20bd-45cf-a4a8-eb548a13a708")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a80f4df4-d33e-47e9-ab70-9566b7b2ccfb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.27 -1.25)
+		(end 1.27 -1.25)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bf67073b-8d53-417b-9e4c-6cbec4bc78c2")
+	)
+	(fp_line
+		(start -1.27 1.25)
+		(end 1.27 1.25)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d885883a-32f5-4463-b550-7ae0be06493e")
+	)
+	(fp_arc
+		(start -1.02 0)
+		(mid -0.51 -0.51)
+		(end 0 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d0c3005a-8143-43e3-b4ee-82740e16df03")
+	)
+	(fp_arc
+		(start 1.019461 0.00382)
+		(mid 0.508071 0.444778)
+		(end 0 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "64afcb87-ccb2-4160-8398-ab17ed195530")
+	)
+	(fp_rect
+		(start -4.1 -1.6)
+		(end 4.1 1.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "13be36d4-06e6-4582-8c62-84181e7f1f8f")
+	)
+	(fp_circle
+		(center -3.05 -1.26)
+		(end -3.02 -1.26)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6761db72-2fef-4949-b4de-faa0d6c163dc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "070ca41d-4575-4914-b915-701e9687c2b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.75 0)
+		(size 2.5 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a40b4813-308a-4445-be40-aacbea5a0027")
+	)
+	(pad "2" smd rect
+		(at 2.75 0)
+		(size 2.5 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "96048a3e-02a8-4884-9b70-5f8fc36325c9")
+	)
+	(embedded_fonts no)
+	(model "/cacophony-library.3dshapes/FUSE-SMD_2410F4A250V.wrl"
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

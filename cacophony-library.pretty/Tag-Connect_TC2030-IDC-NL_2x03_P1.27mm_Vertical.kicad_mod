@@ -1,0 +1,187 @@
+(footprint "Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC-NL.pdf")
+	(tags "tag connect programming header pogo pins")
+	(property "Reference" "REF**"
+		(at 0 2.7 0)
+		(layer "F.SilkS")
+		(uuid "81143feb-6eff-4ff1-a598-fddc8a2330ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
+		(at 0 -2.3 0)
+		(layer "F.Fab")
+		(uuid "525beaac-2ca7-4779-89a4-d0192aeb96a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "945fdc5a-0c9c-4681-b26d-e31c47aa6838")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da7f0a3d-c4d0-445f-a63c-81f41e43274a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.905 1.27)
+		(end -1.905 0.635)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9af0b0b8-2f1c-425a-9fa1-a1a717aaf19e")
+	)
+	(fp_line
+		(start -1.27 1.27)
+		(end -1.905 1.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4d3e3b8b-609e-4267-bd67-92955a3c534c")
+	)
+	(fp_line
+		(start -3.5 -2)
+		(end 3.5 -2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c8c269ed-2917-44f3-83ee-fb8e99b5b862")
+	)
+	(fp_line
+		(start -3.5 2)
+		(end -3.5 -2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2d12c2c9-bd17-493f-a9c1-f2c190a145d9")
+	)
+	(fp_line
+		(start 3.5 -2)
+		(end 3.5 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4416f56d-15f6-4fbd-8400-72c699d43ccd")
+	)
+	(fp_line
+		(start 3.5 2)
+		(end -3.5 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7da00896-0d08-4cec-a855-4c8c98a93a85")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "5c1e20c0-30a5-42cc-80e2-9195cc02af59")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -2.54 0)
+		(size 0.9906 0.9906)
+		(drill 0.9906)
+		(layers "*.Cu" "*.Mask")
+		(uuid "a81eb9ff-c4e8-48a2-becb-f3498166ee8b")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.54 -1.016)
+		(size 0.9906 0.9906)
+		(drill 0.9906)
+		(layers "*.Cu" "*.Mask")
+		(uuid "248bcf78-fdb5-4266-bcef-f01b67c9ee68")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.54 1.016)
+		(size 0.9906 0.9906)
+		(drill 0.9906)
+		(layers "*.Cu" "*.Mask")
+		(uuid "22e947c7-5fa5-4c6b-b1f6-b7d1c567068b")
+	)
+	(pad "1" connect circle
+		(at -1.27 0.635)
+		(size 0.7874 0.7874)
+		(layers "F.Cu" "F.Mask")
+		(uuid "4a7f6e55-1f01-43db-8a02-e2da49bef14e")
+	)
+	(pad "2" connect circle
+		(at -1.27 -0.635)
+		(size 0.7874 0.7874)
+		(layers "F.Cu" "F.Mask")
+		(uuid "83247682-27e3-440b-a639-1b3d7206195e")
+	)
+	(pad "3" connect circle
+		(at 0 0.635)
+		(size 0.7874 0.7874)
+		(layers "F.Cu" "F.Mask")
+		(uuid "ef849b89-12d6-4cac-96bf-7a92c119c168")
+	)
+	(pad "4" connect circle
+		(at 0 -0.635)
+		(size 0.7874 0.7874)
+		(layers "F.Cu" "F.Mask")
+		(uuid "462b732a-69b1-4859-b247-42124be189e6")
+	)
+	(pad "5" connect circle
+		(at 1.27 0.635)
+		(size 0.7874 0.7874)
+		(layers "F.Cu" "F.Mask")
+		(uuid "8f433331-c3d4-4eb0-a71a-bdaffdfd6276")
+	)
+	(pad "6" connect circle
+		(at 1.27 -0.635)
+		(size 0.7874 0.7874)
+		(layers "F.Cu" "F.Mask")
+		(uuid "1d249e82-d6fa-4a95-b1e3-12aa26269c46")
+	)
+	(embedded_fonts no)
+)

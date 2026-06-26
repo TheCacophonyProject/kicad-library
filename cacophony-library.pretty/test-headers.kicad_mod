@@ -1,7 +1,7 @@
 (footprint "test-headers"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Through hole straight pin header, 2x10, 2.54mm pitch, double rows")
 	(tags "Through hole pin header THT 2x10 2.54mm double row")
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6db7cc6c-e116-4d30-9512-b04bb887a453")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -918,4 +905,5 @@
 		(remove_unused_layers no)
 		(uuid "a507c1c9-7758-4c4c-8b2f-e6e1412361d1")
 	)
+	(embedded_fonts no)
 )

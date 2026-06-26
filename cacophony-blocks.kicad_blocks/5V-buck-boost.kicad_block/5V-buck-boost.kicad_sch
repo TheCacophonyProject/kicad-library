@@ -1,0 +1,4862 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "934f3271-34e5-49b8-ad33-e093ca01f405")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:FerriteBead"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FB"
+				(at -3.81 0.635 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FerriteBead"
+				(at 3.81 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Ferrite bead"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FerriteBead_0_1"
+				(polyline
+					(pts
+						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.2192)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TPS63070RNMR_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPS63070RNMR"
+				(at 0 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "cacophony-library:TPS63070"
+				(at 0 30.48 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps63070.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1731997103101"
+				(at 0 30.48 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C109322"
+				(at 0 30.48 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TPS63070RNMR_1_0_1"
+				(rectangle
+					(start -11.43 11.43)
+					(end 11.43 -27.94)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -10.16 10.16)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 -13.97 0)
+					(length 2.54)
+					(name "PS/SYNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 13.97 -17.78 180)
+					(length 2.54)
+					(name "PG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 -16.51 0)
+					(length 2.54)
+					(name "Vaux"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 13.97 -26.67 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 13.97 -3.81 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 13.97 -6.35 180)
+					(length 2.54)
+					(name "FB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 13.97 270)
+					(length 2.54)
+					(name "L2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 13.97 -24.13 180)
+					(length 2.54)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 -11.43 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 0 0)
+					(length 2.54)
+					(name "Vsel"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TPS63070RNMR_1_1_1"
+				(text "V0.8"
+					(at 3.81 -5.08 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 6.35 180)
+					(length 5.08)
+					(name "Vout"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7,8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -7.62 13.97 270)
+					(length 2.54)
+					(name "L1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -16.51 6.35 0)
+					(length 5.08)
+					(name "Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12,13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "cacophony-library:Power_Inductor"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "H"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Inductor symbol for simulation only"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "simulation"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Power_Inductor_0_1"
+				(arc
+					(start -5.08 0)
+					(mid -3.81 1.2645)
+					(end -2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0)
+					(mid -1.27 1.2645)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 1.27 1.2645)
+					(end 2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 3.81 1.2645)
+					(end 5.08 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Power_Inductor_1_1"
+				(pin power_in line
+					(at -6.35 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 6.35 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VCC"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 356.87 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a7d8e58-aa32-4b79-855b-e6fe160fadec")
+	)
+	(junction
+		(at 368.3 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28a36e69-5806-41a0-996a-877754395f4f")
+	)
+	(junction
+		(at 320.04 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48411aae-e9b8-4ff1-9502-dbe775c12ccf")
+	)
+	(junction
+		(at 323.85 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c2299ce-cdd3-4182-80a6-cf00abcab0b5")
+	)
+	(junction
+		(at 236.22 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5deee6bc-ee00-4a76-b9e5-988af660ac78")
+	)
+	(junction
+		(at 304.8 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c63f1a8-1393-4de4-9df7-a4d9bdd27ca3")
+	)
+	(junction
+		(at 303.53 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d098e49-2d1d-4ca1-b044-b6b69bb5f24b")
+	)
+	(junction
+		(at 346.71 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f1363cb-616b-4607-9b75-65a6dc098789")
+	)
+	(junction
+		(at 226.06 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a074601d-e170-4112-8ab9-2bd566969428")
+	)
+	(junction
+		(at 226.06 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a47e63be-d62e-45b8-9cac-ddb52abfa69a")
+	)
+	(junction
+		(at 368.3 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5d3f23f-6965-4516-8dac-aaa446b32fc4")
+	)
+	(junction
+		(at 346.71 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c41db279-fe4b-445d-9442-57ff94e67428")
+	)
+	(junction
+		(at 356.87 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2a9b5b1-fd4e-443a-b9f3-8f3627b9a91f")
+	)
+	(junction
+		(at 336.55 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3666498-e922-47e8-80d0-f42dff177683")
+	)
+	(junction
+		(at 294.64 245.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed04904b-ad2c-4a1b-8ad2-ea485b9ffa8c")
+	)
+	(junction
+		(at 254 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f774915b-3445-4c15-a82b-197f76183545")
+	)
+	(wire
+		(pts
+			(xy 285.75 195.58) (xy 288.29 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "007d2fd9-b4bc-46e7-9d36-cd6fa63c2eeb")
+	)
+	(wire
+		(pts
+			(xy 293.37 224.79) (xy 294.64 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "032a57e1-5150-4632-a085-418a10e72c44")
+	)
+	(wire
+		(pts
+			(xy 320.04 236.22) (xy 320.04 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0860b293-e7f1-4f53-898d-4d8be0c3265b")
+	)
+	(wire
+		(pts
+			(xy 226.06 219.71) (xy 226.06 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0887817a-9717-402c-abc1-7f9f8a64a541")
+	)
+	(wire
+		(pts
+			(xy 320.04 212.09) (xy 320.04 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1979321e-6f07-4775-b499-993652948bc7")
+	)
+	(wire
+		(pts
+			(xy 307.34 231.14) (xy 307.34 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c97e5f0-df25-4fa4-8ab7-82ed47e97280")
+	)
+	(wire
+		(pts
+			(xy 264.16 232.41) (xy 265.43 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2341d727-3e72-4878-9efb-8feefd2a18d5")
+	)
+	(wire
+		(pts
+			(xy 254 212.09) (xy 254 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28467758-1097-421d-80bf-1d2cf1a1cd48")
+	)
+	(wire
+		(pts
+			(xy 294.64 224.79) (xy 294.64 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "284d1338-83bc-4c8c-977f-7d17b78811b1")
+	)
+	(wire
+		(pts
+			(xy 236.22 219.71) (xy 236.22 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a0464b8-8ea8-4b5f-9055-b3b4cf49a262")
+	)
+	(wire
+		(pts
+			(xy 293.37 236.22) (xy 320.04 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c2be8a9-cc7c-4f72-8a18-cd7617a3210d")
+	)
+	(wire
+		(pts
+			(xy 346.71 219.71) (xy 346.71 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "442cceb2-cc58-45cb-8191-5c862b0012aa")
+	)
+	(wire
+		(pts
+			(xy 356.87 212.09) (xy 368.3 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e8d9b56-bd3e-483d-bb8d-b7d52538cbc3")
+	)
+	(wire
+		(pts
+			(xy 323.85 219.71) (xy 323.85 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "550334a9-7438-4dcc-90ef-25307c3b145c")
+	)
+	(wire
+		(pts
+			(xy 336.55 219.71) (xy 346.71 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59fdb8d0-a1e6-4dff-91fa-960b9bbf58a8")
+	)
+	(wire
+		(pts
+			(xy 226.06 212.09) (xy 236.22 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b46aed0-101c-4a20-b162-0fa35550bc87")
+	)
+	(wire
+		(pts
+			(xy 271.78 204.47) (xy 271.78 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dbcf322-e0f2-4154-9370-d7863e2bbf50")
+	)
+	(wire
+		(pts
+			(xy 356.87 219.71) (xy 368.3 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64264fa6-442b-40d6-9064-539f12fd3fa7")
+	)
+	(wire
+		(pts
+			(xy 336.55 213.36) (xy 336.55 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66d476e9-c645-4aed-89b6-fd74fbf516ab")
+	)
+	(wire
+		(pts
+			(xy 271.78 195.58) (xy 273.05 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68707dbc-1c3f-41a3-b18f-0d1869637e25")
+	)
+	(wire
+		(pts
+			(xy 303.53 222.25) (xy 307.34 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71ef45d4-c99a-48c0-b874-bf7344f47988")
+	)
+	(wire
+		(pts
+			(xy 288.29 195.58) (xy 288.29 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a859f37-57d5-462c-8886-a4e64581d8a0")
+	)
+	(wire
+		(pts
+			(xy 304.8 212.09) (xy 320.04 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f75a2ea-9184-4634-a901-a205a0588d89")
+	)
+	(wire
+		(pts
+			(xy 264.16 218.44) (xy 264.16 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "803a4913-fe10-4216-b427-405291e1b7e4")
+	)
+	(wire
+		(pts
+			(xy 323.85 213.36) (xy 323.85 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80918574-c40d-41f5-890b-55bebfc2a48a")
+	)
+	(wire
+		(pts
+			(xy 262.89 242.57) (xy 262.89 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81c52d07-db0a-4f3d-b124-f7db1c24a475")
+	)
+	(wire
+		(pts
+			(xy 346.71 213.36) (xy 346.71 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83a70a14-e868-4592-a03b-287eb0752632")
+	)
+	(wire
+		(pts
+			(xy 262.89 234.95) (xy 265.43 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85e689b7-a410-4e20-8538-ce103c17e56e")
+	)
+	(wire
+		(pts
+			(xy 312.42 219.71) (xy 313.69 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86ef42d9-68c6-4f95-96b2-72bb594410d8")
+	)
+	(wire
+		(pts
+			(xy 304.8 212.09) (xy 304.8 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "903b3b26-8957-48ac-bc9c-75a48305de55")
+	)
+	(wire
+		(pts
+			(xy 336.55 212.09) (xy 346.71 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93e76d08-2d3a-4654-94d9-be864eee4490")
+	)
+	(wire
+		(pts
+			(xy 294.64 245.11) (xy 294.64 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "941233d6-ac3a-4b16-95ab-fac584791b15")
+	)
+	(wire
+		(pts
+			(xy 293.37 222.25) (xy 303.53 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96ca16d4-f49e-43a7-a67d-2fa754f0f1df")
+	)
+	(wire
+		(pts
+			(xy 295.91 212.09) (xy 304.8 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "992bdf9c-2ff2-4c7e-b588-da2cc2fa3018")
+	)
+	(wire
+		(pts
+			(xy 226.06 219.71) (xy 236.22 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a06aa9e2-8121-46c9-8c85-cfa9ecd44a70")
+	)
+	(wire
+		(pts
+			(xy 236.22 212.09) (xy 254 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0716da6-5860-4ee7-ac10-5f96a8bcdb65")
+	)
+	(wire
+		(pts
+			(xy 303.53 219.71) (xy 303.53 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d3f64c-65f0-4523-98af-4cfb51967f85")
+	)
+	(wire
+		(pts
+			(xy 293.37 245.11) (xy 294.64 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a46ed0ad-378c-4c73-b158-ac9281381924")
+	)
+	(wire
+		(pts
+			(xy 293.37 242.57) (xy 294.64 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a675133d-48ad-4a0b-8b0f-d5e34d6f15d6")
+	)
+	(wire
+		(pts
+			(xy 323.85 212.09) (xy 336.55 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aab55fd1-18bb-45f1-8187-0695d13262a6")
+	)
+	(wire
+		(pts
+			(xy 312.42 215.9) (xy 313.69 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad6d47e9-5bd2-4915-b705-f68d9f713503")
+	)
+	(wire
+		(pts
+			(xy 294.64 242.57) (xy 294.64 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af96785b-e920-4add-ad25-04d4de8d8d91")
+	)
+	(wire
+		(pts
+			(xy 307.34 222.25) (xy 307.34 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afae9b68-a1c1-44c9-913a-6f7e61752100")
+	)
+	(wire
+		(pts
+			(xy 368.3 219.71) (xy 368.3 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3f0e9a2-e456-4114-b8f4-1622be94bcec")
+	)
+	(wire
+		(pts
+			(xy 368.3 212.09) (xy 375.92 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9ba3794-cfed-4805-849c-77f0ee8e3713")
+	)
+	(wire
+		(pts
+			(xy 336.55 219.71) (xy 336.55 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be414a92-6d22-47d0-90c0-d2081de173d0")
+	)
+	(wire
+		(pts
+			(xy 356.87 219.71) (xy 356.87 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c053f33d-8ad6-4449-b999-acbd3382dad5")
+	)
+	(wire
+		(pts
+			(xy 320.04 212.09) (xy 323.85 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c28d190a-4ad9-4f47-aa65-f760f58745cb")
+	)
+	(wire
+		(pts
+			(xy 346.71 212.09) (xy 356.87 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c44a95b4-fe75-430f-9cd0-f3e7e9742996")
+	)
+	(wire
+		(pts
+			(xy 226.06 212.09) (xy 226.06 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6b14a04-d442-4b87-931b-fedd42212188")
+	)
+	(wire
+		(pts
+			(xy 262.89 237.49) (xy 262.89 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8cd51ee-389a-4cc2-a6a4-895080c5b1ee")
+	)
+	(wire
+		(pts
+			(xy 254 219.71) (xy 254 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4bb9025-b77c-4898-bb91-11ea64b4ebfa")
+	)
+	(wire
+		(pts
+			(xy 304.8 219.71) (xy 303.53 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d872fa65-a808-4cb8-8c28-266fc0c1507e")
+	)
+	(wire
+		(pts
+			(xy 226.06 212.09) (xy 226.06 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc8d1754-a7a0-42a8-811e-3a130237e126")
+	)
+	(wire
+		(pts
+			(xy 368.3 213.36) (xy 368.3 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de09fb46-a7cf-4d6d-b2d7-8af81e6f9f52")
+	)
+	(wire
+		(pts
+			(xy 346.71 219.71) (xy 356.87 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2322738-996f-4efb-92e1-ed64ca95a8bd")
+	)
+	(wire
+		(pts
+			(xy 368.3 218.44) (xy 368.3 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e70198b4-5aaa-4544-ac8a-ceeab1ac3822")
+	)
+	(wire
+		(pts
+			(xy 313.69 215.9) (xy 313.69 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8345182-5c23-440a-b1dc-5408374afef2")
+	)
+	(wire
+		(pts
+			(xy 265.43 218.44) (xy 264.16 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecf83b4a-fa60-4725-bc0b-b57087ec0bc4")
+	)
+	(wire
+		(pts
+			(xy 356.87 213.36) (xy 356.87 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed4906ed-7e17-48d3-ba75-5c2236ac76c7")
+	)
+	(wire
+		(pts
+			(xy 236.22 212.09) (xy 236.22 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f578af0d-3b93-4280-ac70-b7db64e527d7")
+	)
+	(wire
+		(pts
+			(xy 264.16 229.87) (xy 265.43 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc1a1bfe-2beb-4d3a-8989-c4f8c92394a8")
+	)
+	(wire
+		(pts
+			(xy 226.06 219.71) (xy 226.06 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcfc5fec-fcc7-4511-8dda-6cc312f5c8b6")
+	)
+	(wire
+		(pts
+			(xy 254 212.09) (xy 262.89 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdb572b6-6708-4371-be3e-9a64f6515091")
+	)
+	(label "5V_L2"
+		(at 288.29 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19985f24-36ac-4c8b-8f8e-8b740169a3b3")
+	)
+	(label "5V_L1"
+		(at 271.78 195.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9b4a2238-857e-4ed3-926f-8c152612d2fb")
+	)
+	(label "5V_PHY"
+		(at 297.18 212.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da3bb84f-41db-49ab-9617-f2e3df6594c9")
+	)
+	(label "5V_PG"
+		(at 294.64 236.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e26acb7e-2618-4189-b61c-ae5a2f713351")
+	)
+	(global_label "BUCK_BOOST_FPWM"
+		(shape input)
+		(at 264.16 232.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1adba30c-940f-4d47-ab28-4a5ecbe6cec2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.7296 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "5V_EN"
+		(shape input)
+		(at 264.16 229.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "28609920-50f2-4b4d-8a4f-3808bbb01cef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.4296 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 294.64 226.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a2acc34-af68-404e-9436-1733bd55065d")
+		(property "Reference" "#PWR0209"
+			(at 294.64 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 294.64 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 294.64 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 294.64 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 294.64 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e079d5f-b320-41df-82e1-1d00656b5388")
+		)
+		(instances
+			(project "tc2-plugs-2-pcb"
+				(path "/0ce5a64e-5f2a-4b26-a5ef-1d266e2580e3"
+					(reference "#PWR0209")
+					(unit 1)
+				)
+			)
+			(project "tc2-plugs-buck-boost-pcb"
+				(path "/f421ea14-42dc-4485-8e12-78680a358584"
+					(reference "#PWR0231")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 323.85 219.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20c39d6f-3fb4-4bc1-958d-008ab7ff95a4")
+		(property "Reference" "#PWR0205"
+			(at 323.85 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 323.85 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 323.85 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 323.85 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 323.85 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e7008e6-3863-4198-8054-bb3fd5b4ea1d")
+		)
+		(instances
+			(project "tc2-plugs-2-pcb"
+				(path "/0ce5a64e-5f2a-4b26-a5ef-1d266e2580e3"
+					(reference "#PWR0205")
+					(unit 1)
+				)
+			)
+			(project "tc2-plugs-buck-boost-pcb"
+				(path "/f421ea14-42dc-4485-8e12-78680a358584"
+					(reference "#PWR0227")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 379.73 212.09 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a71cc5f-9b9a-4c4e-a55d-f26cc2d7443f")
+		(property "Reference" "FB1"
+			(at 379.6792 204.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FerriteBead"
+			(at 379.6792 207.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 379.73 213.868 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 379.73 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 379.73 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C76818"
+			(at 379.73 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 379.73 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 379.73 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a2cb3f59-8101-43be-88ec-05b504ee2dcb")
+		)
+		(pin "2"
+			(uuid "2b5ff67a-3d96-493c-849b-35fa5792556c")
+		)
+		(instances
+			(project "tc2-main-pcb"
+				(path "/0662f88c-5300-4b75-bef3-048a3227af84/2e9183e4-4890-407e-94d9-073558eff15b"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
+			(project "tc2-plugs-2-pcb"
+				(path "/0ce5a64e-5f2a-4b26-a5ef-1d266e2580e3"
+					(reference "FB201")
+					(unit 1)
+				)
+			)
+			(project "m2-simcom-test"
+				(path "/d2f99b27-5eff-46d9-9fb6-22d4b3a02297"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
+			(project "tc2-plugs-buck-boost-pcb"
+				(path "/f421ea14-42dc-4485-8e12-78680a358584"
+					(reference "FB202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 368.3 220.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32896227-142b-4ca0-9d3c-fc4428922ab2")
+		(property "Reference" "#PWR0207"
+			(at 368.3 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 368.3 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 368.3 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 368.3 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b1175f8b-b348-4261-b00c-37e0ece63388")
+		)
+		(instances
+			(project "tc2-plugs-2-pcb"
+				(path "/0ce5a64e-5f2a-4b26-a5ef-1d266e2580e3"
+					(reference "#PWR0207")
+					(unit 1)
+				)
+			)
+			(project "tc2-plugs-buck-boost-pcb"
+				(path "/f421ea14-42dc-4485-8e12-78680a358584"
+					(reference "#PWR0229")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 226.06 210.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "346cb927-a9cb-4f33-807a-d80f9ce5d113")
+		(property "Reference" "#PWR0201"
+			(at 226.06 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 226.06 207.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 226.06 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ab53bdf-7d70-4502-974d-556b9e04067e")
+		)
+		(instances
+			(project "tc2-plugs-2-pcb"
+				(path "/0ce5a64e-5f2a-4b26-a5ef-1d266e2580e3"
+					(reference "#PWR0201")
+					(unit 1)
+				)
+			)
+			(project "tc2-plugs-buck-boost-pcb"
+				(path "/f421ea14-42dc-4485-8e12-78680a358584"
+					(reference "#PWR0222")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "TPS63070RNMR_1")
+		(lib_id "cacophony-library:TPS63070RNMR")
+		(at 279.4 218.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "36929f19-4806-4c43-85ef-f5516897cd06")
+		(property "Reference" "U201"
+			(at 279.4 204.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS63070"
+			(at 279.4 241.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cacophony-library:TPS63070"
+			(at 279.4 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps63070.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1731997103101"
+			(at 279.4 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 279.4 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C109322 "
+			(at 279.4 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 279.4 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 279.4 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "892b996f-4d57-4680-b954-5e737a2dcca9")
+		)
+		(pin "14"
+			(uuid "5e89d2f0-fb9e-45c2-a5c1-72eda687d26b")
+		)
+		(pin "6"
+			(uuid "a1e669a6-7a07-4163-be3c-d41f96b90b15")
+		)
+		(pin "7,8"
+			(uuid "dc9e2902-ac75-4158-861b-d49b8d923b12")
+		)
+		(pin "12,13"
+			(uuid "61da5f73-55c2-45d6-b999-98c6391de50a")
+		)
+		(pin "2"
+			(uuid "8ba198fd-3354-406b-a020-d024511be656")
+		)
+		(pin "10"
+			(uuid "af7375af-8747-49ea-a4d0-84fcfef286c8")
+		)
+		(pin "11"
+			(uuid "650a538f-e295-406b-abff-4e340d0a15ac")
+		)
+		(pin "15"
+			(uuid "dc41be6b-3150-4596-b755-d0a23796ddda")
+		)
+		(pin "5"
+			(uuid "18508bae-4861-4e9c-aa5f-33628f4f4271")
+		)
+		(pin "4"
+			(uuid "28514770-8f99-4d00-86c4-4a3f1d621c24")
+		)
+		(pin "9"
+			(uuid "bf2c938a-6af2-4a75-b0fe-5b2a1441ab4e")
+		)
+		(pin "3"
+			(uuid "489e2546-4175-4395-b802-272a5f21b8de")
+		)
+		(instances
+			(project "tc2-plugs-2-pcb"
+				(path "/0ce5a64e-5f2a-4b26-a5ef-1d266e2580e3"
+					(reference "U201")
+					(unit 1)
+				)
+			)
+			(project "tc2-plugs-buck-boost-pcb"
+				(path "/f421ea14-42dc-4485-8e12-78680a358584"
+					(reference "U202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 262.89 240.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3856ac5c-d3fd-46f9-aa27-6fa8f1aea080")
+		(property "Reference" "C210"
+			(at 256.54 238.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 254 241.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 262.89 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C100072"
+			(at 262.89 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 262.89 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 262.89 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ccbfffe5-e9ac-42ca-911b-e8235655ee41")
+		)
+		(pin "1"
+			(uuid "e96fc2da-13ea-4b58-9b00-44c9615d4252")
+		)
+		(instances
+			(project "tc2-plugs-2-pcb"
+				(path "/0ce5a64e-5f2a-4b26-a5ef-1d266e2580e3"
+					(reference "C210")
+					(unit 1)
+				)
+			)
+			(project "tc2-plugs-buck-boost-pcb"
+				(path "/f421ea14-42dc-4485-8e12-78680a358584"
+					(reference "C227")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 356.87 215.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3eb37617-19cb-48fc-bd3e-fb1e4dedac2e")
+		(property "Reference" "C209"
+			(at 359.41 214.6363 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 359.41 217.1763 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 356.87 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 356.87 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 356.87 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C86295"
+			(at 356.87 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 356.87 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 356.87 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f484526-b620-48dc-b30a-e6fb11b2b672")
+		)
+		(pin "2"
+			(uuid "92b5ad35-cd26-46ef-b655-ac2e912a6af5")
+		)
+		(instances
+			(project "tc2-plugs-2-pcb"
+				(path "/0ce5a64e-5f2a-4b26-a5ef-1d266e2580e3"
+					(reference "C209")
+					(unit 1)
+				)
+			)
+			(project "tc2-plugs-buck-boost-pcb"
+				(path "/f421ea14-42dc-4485-8e12-78680a358584"
+					(reference "C225")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 294.64 246.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "400ff0fd-0759-4f7b-80fe-8adb42d11858")
+		(property "Reference" "#PWR0212"
+			(at 294.64 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 294.64 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 294.64 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 294.64 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 294.64 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "feabe13e-86db-41e8-b061-53ee7bdc6af5")
+		)
+		(instances
+			(project "tc2-plugs-2-pcb"
+				(path "/0ce5a64e-5f2a-4b26-a5ef-1d266e2580e3"
+					(reference "#PWR0212")
+					(unit 1)
+				)
+			)
+			(project "tc2-plugs-buck-boost-pcb"
+				(path "/f421ea14-42dc-4485-8e12-78680a358584"
+					(reference "#PWR0234")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 308.61 215.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4a9f58bf-8eb3-4d30-9ea6-ecab8204c8f1")
+		(property "Reference" "R216"
+			(at 302.768 213.868 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470k"
+			(at 313.69 213.868 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 308.61 217.678 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 308.61 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C319591"
+			(at 308.61 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 308.61 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 308.61 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb9775a6-5695-4439-bd58-702a5d4ba089")
+		)
+		(pin "2"
+			(uuid "15e1d9e2-14ed-4463-9137-ad45a2fb600f")
+		)
+		(instances
+			(project "tc2-plugs-buck-boost-pcb"
+				(path "/f421ea14-42dc-4485-8e12-78680a358584"
+					(reference "R216")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 336.55 215.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b34ac63-56b7-4373-81f3-2c1a7bc1336f")
+		(property "Reference" "C206"
+			(at 339.09 214.6363 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 339.09 217.1763 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 336.55 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 336.55 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C86295"
+			(at 336.55 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 336.55 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 336.55 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2480fff5-3d80-4e90-b4b9-fb30f0d6b072")
+		)
+		(pin "2"
+			(uuid "c85eaa0d-a25f-4af2-af88-661e44bb8838")
+		)
+		(instances
+			(project "tc2-plugs-2-pcb"
+				(path "/0ce5a64e-5f2a-4b26-a5ef-1d266e2580e3"
+					(reference "C206")
+					(unit 1)
+				)
+			)
+			(project "tc2-plugs-buck-boost-pcb"
+				(path "/f421ea14-42dc-4485-8e12-78680a358584"
+					(reference "C223")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 307.34 227.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "63178f87-26f8-4e87-9af6-5c8bf440aa48")
+		(property "Reference" "R219"
+			(at 308.61 226.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 308.61 228.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 305.562 227.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 307.34 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 307.34 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25741"
+			(at 307.34 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 307.34 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 307.34 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "05595715-b88a-4a95-8d4a-cc53fc5620bf")
+		)
+		(pin "2"
+			(uuid "2dea2204-5154-4f59-a99f-550f63c4e592")
+		)
+		(instances
+			(project "tc2-plugs-buck-boost-pcb"
+				(path "/f421ea14-42dc-4485-8e12-78680a358584"
+					(reference "R219")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 226.06 215.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7229c3d3-d5a8-4fff-80c8-f6b81660a06f")
+		(property "Reference" "C203"
+			(at 228.6 214.6363 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 228.6 217.1763 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 226.06 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C45783"
+			(at 226.06 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 226.06 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 226.06 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8290b56f-1f74-4dbd-8cee-8d4ba9b3b5f2")
+		)
+		(pin "2"
+			(uuid "f7edafc1-202e-4bd6-beb0-94326ea69fde")
+		)
+		(instances
+			(project "tc2-plugs-2-pcb"
+				(path "/0ce5a64e-5f2a-4b26-a5ef-1d266e2580e3"
+					(reference "C203")
+					(unit 1)
+				)
+			)
+			(project "tc2-plugs-buck-boost-pcb"
+				(path "/f421ea14-42dc-4485-8e12-78680a358584"
+					(reference "C219")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 262.89 243.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d2c9bd4-92f5-4e52-9664-ed17d2521193")
+		(property "Reference" "#PWR0211"
+			(at 262.89 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 262.89 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 262.89 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f14401d-e8b6-4055-8865-643b22d3977a")
+		)
+		(instances
+			(project "tc2-plugs-2-pcb"
+				(path "/0ce5a64e-5f2a-4b26-a5ef-1d266e2580e3"
+					(reference "#PWR0211")
+					(unit 1)
+				)
+			)
+			(project "tc2-plugs-buck-boost-pcb"
+				(path "/f421ea14-42dc-4485-8e12-78680a358584"
+					(reference "#PWR0233")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 264.16 219.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f85ae2f-f309-4f78-ba62-30369b709313")
+		(property "Reference" "#PWR0204"
+			(at 264.16 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 264.16 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 264.16 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7ccfc9e-2d09-411a-b3d7-98fa9c6ddef5")
+		)
+		(instances
+			(project "tc2-plugs-2-pcb"
+				(path "/0ce5a64e-5f2a-4b26-a5ef-1d266e2580e3"
+					(reference "#PWR0204")
+					(unit 1)
+				)
+			)
+			(project "tc2-plugs-buck-boost-pcb"
+				(path "/f421ea14-42dc-4485-8e12-78680a358584"
+					(reference "#PWR0226")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 346.71 215.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8250ed8b-8ebc-4de4-ba84-f72b0cc9938a")
+		(property "Reference" "C208"
+			(at 349.25 214.6363 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 349.25 217.1763 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 346.71 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 346.71 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 346.71 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C86295"
+			(at 346.71 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 346.71 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 346.71 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f633ea68-ef28-4b93-be5e-5f0f64efa6fb")
+		)
+		(pin "2"
+			(uuid "55f5f583-370d-4256-a2a8-4ad375724ba3")
+		)
+		(instances
+			(project "tc2-plugs-2-pcb"
+				(path "/0ce5a64e-5f2a-4b26-a5ef-1d266e2580e3"
+					(reference "C208")
+					(unit 1)
+				)
+			)
+			(project "tc2-plugs-buck-boost-pcb"
+				(path "/f421ea14-42dc-4485-8e12-78680a358584"
+					(reference "C224")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 254 215.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95237dff-b121-4ce1-bb5f-ab4db9a7ef28")
+		(property "Reference" "C204"
+			(at 256.54 214.6362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 256.54 217.1762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 254 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 254 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C159814"
+			(at 254 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 254 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 254 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "66192be5-e01f-44f5-b14d-968d024d29e2")
+		)
+		(pin "2"
+			(uuid "8852fdd7-f493-4881-a3ec-784dae47dad1")
+		)
+		(instances
+			(project "tc2-plugs-2-pcb"
+				(path "/0ce5a64e-5f2a-4b26-a5ef-1d266e2580e3"
+					(reference "C204")
+					(unit 1)
+				)
+			)
+			(project "tc2-plugs-buck-boost-pcb"
+				(path "/f421ea14-42dc-4485-8e12-78680a358584"
+					(reference "C221")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 308.61 219.71 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "97e088d0-04e1-4a0f-857f-3c9a24d92bad")
+		(property "Reference" "R218"
+			(at 303.022 217.932 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "68k"
+			(at 313.182 218.186 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 308.61 221.488 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 308.61 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C445618"
+			(at 308.61 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 308.61 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1947618e-cdc6-4835-b291-a2a30665e6e7")
+		)
+		(pin "2"
+			(uuid "78034a88-6d10-4d12-903f-8d6421587761")
+		)
+		(instances
+			(project "tc2-plugs-buck-boost-pcb"
+				(path "/f421ea14-42dc-4485-8e12-78680a358584"
+					(reference "R218")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 323.85 215.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "abb225a5-4b81-4e4a-a0a2-4d8fc5a79761")
+		(property "Reference" "C205"
+			(at 326.39 214.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 326.39 217.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 323.85 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 323.85 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 323.85 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C15525"
+			(at 323.85 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 323.85 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 323.85 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ca25969-ffa1-476f-850c-326d5e1333c4")
+		)
+		(pin "2"
+			(uuid "4388f973-1b8e-471c-b72c-9a726331a582")
+		)
+		(instances
+			(project "tc2-plugs-2-pcb"
+				(path "/0ce5a64e-5f2a-4b26-a5ef-1d266e2580e3"
+					(reference "C205")
+					(unit 1)
+				)
+			)
+			(project "tc2-plugs-buck-boost-pcb"
+				(path "/f421ea14-42dc-4485-8e12-78680a358584"
+					(reference "C222")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 307.34 232.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6f43dae-62e5-4e46-adc0-938c187a3870")
+		(property "Reference" "#PWR0210"
+			(at 307.34 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 307.34 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 307.34 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 307.34 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 307.34 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "49e8f1cb-4531-4020-a427-c8e1272b3f85")
+		)
+		(instances
+			(project "tc2-plugs-2-pcb"
+				(path "/0ce5a64e-5f2a-4b26-a5ef-1d266e2580e3"
+					(reference "#PWR0210")
+					(unit 1)
+				)
+			)
+			(project "tc2-plugs-buck-boost-pcb"
+				(path "/f421ea14-42dc-4485-8e12-78680a358584"
+					(reference "#PWR0232")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cacophony-library:Power_Inductor")
+		(at 279.4 195.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1a7a45b-3859-4143-a845-f31f019ab2bc")
+		(property "Reference" "L3"
+			(at 279.4 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.5uH"
+			(at 279.4 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
+			(at 279.4 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 279.4 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5179452"
+			(at 279.4 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 279.4 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 279.4 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7bfadb96-48e9-42bb-9cab-6477ae22ef3b")
+		)
+		(pin "2"
+			(uuid "a5d1e15e-d764-4513-908f-29fc47154394")
+		)
+		(instances
+			(project "tc2-main-pcb"
+				(path "/0662f88c-5300-4b75-bef3-048a3227af84/2e9183e4-4890-407e-94d9-073558eff15b"
+					(reference "L3")
+					(unit 1)
+				)
+			)
+			(project "tc2-plugs-2-pcb"
+				(path "/0ce5a64e-5f2a-4b26-a5ef-1d266e2580e3"
+					(reference "L201")
+					(unit 1)
+				)
+			)
+			(project "bird-monitor-power-solar"
+				(path "/c82c7490-e53f-447e-aa04-d1e94a1612c9"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+			(project "m2-simcom-test"
+				(path "/d2f99b27-5eff-46d9-9fb6-22d4b3a02297"
+					(reference "L3")
+					(unit 1)
+				)
+			)
+			(project "tc2-plugs-buck-boost-pcb"
+				(path "/f421ea14-42dc-4485-8e12-78680a358584"
+					(reference "L202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 320.04 227.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d78bc2d1-e12b-40b1-8012-21a258c1f83e")
+		(property "Reference" "R38"
+			(at 321.31 226.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 321.31 228.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 318.262 227.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 320.04 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25741"
+			(at 320.04 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 320.04 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 320.04 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e311747-782c-4d75-98d0-192caf8a179c")
+		)
+		(pin "2"
+			(uuid "ad189ed3-a076-4019-9428-0f5947ec5713")
+		)
+		(instances
+			(project "tc2-main-pcb"
+				(path "/0662f88c-5300-4b75-bef3-048a3227af84"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+			(project "tc2-plugs-2-pcb"
+				(path "/0ce5a64e-5f2a-4b26-a5ef-1d266e2580e3"
+					(reference "R204")
+					(unit 1)
+				)
+			)
+			(project "tc2-plugs-buck-boost-pcb"
+				(path "/f421ea14-42dc-4485-8e12-78680a358584"
+					(reference "R215")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 226.06 220.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e61fa219-0f45-43f4-95ac-d005b350193d")
+		(property "Reference" "#PWR0206"
+			(at 226.06 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 226.06 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 226.06 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "abadf4ce-a485-4e61-a578-bbd6a9ecf575")
+		)
+		(instances
+			(project "tc2-plugs-2-pcb"
+				(path "/0ce5a64e-5f2a-4b26-a5ef-1d266e2580e3"
+					(reference "#PWR0206")
+					(unit 1)
+				)
+			)
+			(project "tc2-plugs-buck-boost-pcb"
+				(path "/f421ea14-42dc-4485-8e12-78680a358584"
+					(reference "#PWR0228")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 254 219.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f432751c-f4cc-4744-b36b-5b51713fc533")
+		(property "Reference" "#PWR0203"
+			(at 254 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 254 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 254 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c8d74263-8aa4-4385-ae90-1675c019b1d4")
+		)
+		(instances
+			(project "tc2-plugs-2-pcb"
+				(path "/0ce5a64e-5f2a-4b26-a5ef-1d266e2580e3"
+					(reference "#PWR0203")
+					(unit 1)
+				)
+			)
+			(project "tc2-plugs-buck-boost-pcb"
+				(path "/f421ea14-42dc-4485-8e12-78680a358584"
+					(reference "#PWR0225")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 236.22 215.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcc1a78a-5c69-4e42-9273-c65706203b84")
+		(property "Reference" "C203"
+			(at 238.76 214.6363 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 238.76 217.1763 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 236.22 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C45783"
+			(at 236.22 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 236.22 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 236.22 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "65c39ede-9b31-45f6-88dc-44f11bb998bd")
+		)
+		(pin "2"
+			(uuid "3e8eba74-77ef-42d8-b84c-752ca183016d")
+		)
+		(instances
+			(project "tc2-plugs-2-pcb"
+				(path "/0ce5a64e-5f2a-4b26-a5ef-1d266e2580e3"
+					(reference "C203")
+					(unit 1)
+				)
+			)
+			(project "tc2-plugs-buck-boost-pcb"
+				(path "/f421ea14-42dc-4485-8e12-78680a358584"
+					(reference "C220")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 368.3 215.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fee91343-47dd-4e80-aa4a-c2670b54074a")
+		(property "Reference" "C207"
+			(at 370.84 214.6363 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 370.84 217.1763 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 368.3 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 368.3 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C86295"
+			(at 368.3 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 368.3 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" ""
+			(at 368.3 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2caee37a-7b5a-43bf-a520-42c45b71a487")
+		)
+		(pin "2"
+			(uuid "fac67e8e-84d0-4302-aab0-7116692c3ff1")
+		)
+		(instances
+			(project "tc2-plugs-2-pcb"
+				(path "/0ce5a64e-5f2a-4b26-a5ef-1d266e2580e3"
+					(reference "C207")
+					(unit 1)
+				)
+			)
+			(project "tc2-plugs-buck-boost-pcb"
+				(path "/f421ea14-42dc-4485-8e12-78680a358584"
+					(reference "C226")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

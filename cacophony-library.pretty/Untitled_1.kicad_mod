@@ -1,27 +1,26 @@
-(footprint "3.0mm_key_hole"
-	(version 20241229)
+(footprint "Untitled_1"
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "95901a48-cd4d-424f-a43e-2ee9ea642b04")
+		(uuid "b301e3fa-3aed-4cc8-a049-7abc27145406")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.1)
 			)
 		)
 	)
-	(property "Value" "3.0mm_key_hole"
+	(property "Value" "Untitled_1"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(hide yes)
-		(uuid "4abe4a97-6da1-4fcf-9931-9b51eff03e42")
+		(uuid "ef770640-ae99-4565-9209-7a1e95b084fc")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ae0557c0-ef31-4f5e-a7e1-16f1f845438a")
+		(uuid "d1c4d1d5-299e-496e-bad1-11e27c17ba3a")
 		(effects
 			(font
 				(size 1 1)
@@ -47,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "da8176b1-6d4f-4756-92ba-714383c857a6")
+		(uuid "1c9923ca-5aa7-4ee0-8f5c-88d97e55e5c5")
 		(effects
 			(font
 				(size 1 1)
@@ -56,35 +55,29 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
-	(fp_circle
-		(center 0 0)
-		(end 1.5 0)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -4 -4)
+		(end 4 4)
 		(stroke
-			(width 0.05)
-			(type default)
+			(width 0)
+			(type solid)
 		)
-		(fill no)
-		(layer "F.CrtYd")
-		(uuid "e48b1b1b-2c4d-40e0-a8f4-aa59768bf91d")
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "5effdb88-925b-415b-a2e1-5ae9553011ed")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "6f03045b-354d-4558-acc0-d223ca5a0b7e")
+		(uuid "bc4ea600-633b-4365-bd26-db05d4a89eda")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
 			)
 		)
-	)
-	(pad "" np_thru_hole circle
-		(at 0 0)
-		(size 3 3)
-		(drill 3)
-		(layers "*.Cu" "*.Mask")
-		(uuid "cdba546b-f6e7-4937-932f-80c57244dc55")
 	)
 	(embedded_fonts no)
 )
