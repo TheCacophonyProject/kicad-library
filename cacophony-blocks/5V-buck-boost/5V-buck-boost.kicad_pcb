@@ -113,6 +113,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -160,7 +161,7 @@
 			(at 0 -1.43 270)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "7f593f03-a33f-4dad-8699-ff9dae095ee2")
+			(uuid "c35728c4-3cd1-4f18-9000-abb950cecd54")
 			(effects
 				(font
 					(size 1 1)
@@ -171,7 +172,7 @@
 		(property "Value" "22uF"
 			(at 0 1.43 270)
 			(layer "F.Fab")
-			(uuid "29063820-31a3-4aa4-8d9e-dd0bd9e1e3f7")
+			(uuid "894e7f67-bbe4-4275-9baf-063ff198cfef")
 			(effects
 				(font
 					(size 1 1)
@@ -184,7 +185,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c5609304-9a30-4a7e-9956-8aa4a26e28ef")
+			(uuid "658cc227-6897-45e3-baf3-9e25967d82ad")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -197,7 +198,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "00d3cb13-2504-4afc-b0f1-ba04cc5c28f3")
+			(uuid "d77a5078-d610-4271-af53-132a3ab52baa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -260,6 +261,12 @@
 		(path "/3eb37617-19cb-48fc-bd3e-fb1e4dedac2e")
 		(sheetname "/")
 		(sheetfile "5V-buck-boost.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -356,7 +363,7 @@
 			(at 0 -1.17 270)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "62a219b1-f642-4f84-933d-296d8f5a5159")
+			(uuid "e93a98bc-8e0a-4d87-9d54-62b287423a8a")
 			(effects
 				(font
 					(size 1 1)
@@ -367,7 +374,7 @@
 		(property "Value" "470k"
 			(at 0 1.17 270)
 			(layer "F.Fab")
-			(uuid "7e52c743-8e43-456f-b731-7812bfc449c8")
+			(uuid "0622e481-977f-43b1-b20f-8e1148d1423a")
 			(effects
 				(font
 					(size 1 1)
@@ -380,7 +387,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "14547c69-795e-4649-b83f-7da7e7ba028f")
+			(uuid "f328c7cd-a978-4feb-999a-657717c2695b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -393,7 +400,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ecdb5482-0a9a-42db-8d35-c3ef67aad3ef")
+			(uuid "1a915e85-a918-463c-8159-44839ec5e433")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -456,6 +463,12 @@
 		(path "/4a9f58bf-8eb3-4d30-9ea6-ecab8204c8f1")
 		(sheetname "/")
 		(sheetfile "5V-buck-boost.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -552,7 +565,7 @@
 			(at 0 -1.17 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d0443a9c-ab8d-4ce3-83c5-175be2cf14e6")
+			(uuid "c75c4221-d112-4aa6-a797-8349c824204a")
 			(effects
 				(font
 					(size 1 1)
@@ -563,7 +576,7 @@
 		(property "Value" "10k"
 			(at 0 1.17 180)
 			(layer "F.Fab")
-			(uuid "c6f18feb-5cb9-44e0-ad6f-b5b5507bda32")
+			(uuid "6dca15d1-c46f-42cf-9df4-0a7725618c44")
 			(effects
 				(font
 					(size 1 1)
@@ -575,7 +588,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "833b880c-5342-4560-b490-bb952508e9e1")
+			(uuid "24fe8933-deee-4474-8bf5-9e902013b438")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -586,7 +599,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4b887cf8-ad39-4fc1-a4d9-7fc756e6f591")
+			(uuid "defcd8ab-e837-4e4f-bb76-8cb6cc3bb7bf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -635,6 +648,12 @@
 		(path "/99045d2b-d8a2-4210-9b94-778b13f777ad")
 		(sheetname "/")
 		(sheetfile "5V-buck-boost.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -731,7 +750,7 @@
 			(at 0 -1.16 270)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e209e7a3-6522-41ae-ba6f-0b86ed875326")
+			(uuid "71dc6db6-6384-4c66-90b0-99e2670e7191")
 			(effects
 				(font
 					(size 1 1)
@@ -742,7 +761,7 @@
 		(property "Value" "2.2uF"
 			(at 0 1.16 270)
 			(layer "F.Fab")
-			(uuid "dfccd2d0-3ee1-4d0a-8ea7-37884176fc6e")
+			(uuid "d70b2304-9b3b-4f25-b283-3a7cf2a98f3d")
 			(effects
 				(font
 					(size 1 1)
@@ -755,7 +774,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dc98a4b1-7802-4f14-bf38-45e7196f48d2")
+			(uuid "e24f704d-3ff3-48fc-996c-7b894509537e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -768,7 +787,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0db5f378-207e-4a84-801b-f3999535e63d")
+			(uuid "84cc294f-0b4e-49f0-a765-28bdfe3fb799")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -831,6 +850,12 @@
 		(path "/95237dff-b121-4ce1-bb5f-ab4db9a7ef28")
 		(sheetname "/")
 		(sheetfile "5V-buck-boost.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -927,7 +952,7 @@
 			(at 0 -1.68 270)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "40305bcd-1f17-487b-bb86-27ebcdc76b4e")
+			(uuid "ce26a3be-9ed3-44df-9c60-4b07dbb4e2bd")
 			(effects
 				(font
 					(size 1 1)
@@ -938,7 +963,7 @@
 		(property "Value" "22uF"
 			(at 0 1.68 270)
 			(layer "F.Fab")
-			(uuid "d18cc09a-c007-41d4-802e-f9d0f79fcb15")
+			(uuid "ce2d871e-7115-4231-8f1c-4c918696aac6")
 			(effects
 				(font
 					(size 1 1)
@@ -951,7 +976,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "774e9138-fe9b-40ec-a4f4-3628d95f2bc2")
+			(uuid "67044786-01da-4eca-8dd0-1946ca19b004")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -964,7 +989,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0228c0aa-3b9c-47d1-99fe-84e13f9c57e5")
+			(uuid "1b26569c-d4df-4525-8f2e-76446e9acb69")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1027,6 +1052,12 @@
 		(path "/fcc1a78a-5c69-4e42-9273-c65706203b84")
 		(sheetname "/")
 		(sheetfile "5V-buck-boost.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1123,7 +1154,7 @@
 			(at 0 -1.68 270)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ba868ba7-6f6a-44dd-b493-39f8483a26d5")
+			(uuid "98d78a6c-d08c-4a3c-a0bb-a5af6e627cd9")
 			(effects
 				(font
 					(size 1 1)
@@ -1134,7 +1165,7 @@
 		(property "Value" "22uF"
 			(at 0 1.68 270)
 			(layer "F.Fab")
-			(uuid "279add41-b80c-49da-8a33-7ffe9f098c52")
+			(uuid "618ff493-8724-42d1-8816-9682cf89ddea")
 			(effects
 				(font
 					(size 1 1)
@@ -1147,7 +1178,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c5f5f85f-115b-4833-b6fd-00dd9777d968")
+			(uuid "639574d1-62dc-4877-b5e7-92fcc10adb6c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1160,7 +1191,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "616d6749-9728-418d-a323-8290014459b5")
+			(uuid "f5731714-a0d5-4ab4-ab8b-384a5a898105")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1223,6 +1254,12 @@
 		(path "/7229c3d3-d5a8-4fff-80c8-f6b81660a06f")
 		(sheetname "/")
 		(sheetfile "5V-buck-boost.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1319,7 +1356,7 @@
 			(at 0 -1.43 270)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b699b81e-b441-40a6-856c-0c4db7d9424b")
+			(uuid "0f76cc0d-bec6-438b-bb85-54e98181c108")
 			(effects
 				(font
 					(size 1 1)
@@ -1330,7 +1367,7 @@
 		(property "Value" "22uF"
 			(at 0 1.43 270)
 			(layer "F.Fab")
-			(uuid "1f975287-3fad-4223-9df6-604b8f8c9406")
+			(uuid "9a7f4442-6dc3-4412-97f4-b09098810925")
 			(effects
 				(font
 					(size 1 1)
@@ -1343,7 +1380,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a182afd3-6e32-47fb-9da0-6fc5f32a613e")
+			(uuid "353331b3-7f30-4f06-a98b-69ecd47e39c9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1356,7 +1393,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "32b60a9e-49e8-4e62-9052-fb17784480e0")
+			(uuid "6de86361-b86e-4bfa-855e-db6105260161")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1419,6 +1456,12 @@
 		(path "/5b34ac63-56b7-4373-81f3-2c1a7bc1336f")
 		(sheetname "/")
 		(sheetfile "5V-buck-boost.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1515,7 +1558,7 @@
 			(at 0 -1.16 270)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "4732e0a2-1c37-49c5-ba84-839c973e521a")
+			(uuid "45976717-c921-4245-b54d-6b1e9321074f")
 			(effects
 				(font
 					(size 1 1)
@@ -1526,7 +1569,7 @@
 		(property "Value" "10uF"
 			(at 0 1.16 270)
 			(layer "F.Fab")
-			(uuid "e8e0e3da-0180-4f01-8857-96c944daa9ac")
+			(uuid "86313f3a-c8ce-4d1b-b342-c8c28c89cbe2")
 			(effects
 				(font
 					(size 1 1)
@@ -1539,7 +1582,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "59ae8342-9c67-487e-b16a-40d85e42e12b")
+			(uuid "6c36e3f8-c8c3-4892-9f8c-8a36ae50aa8b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1552,7 +1595,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6063d7ce-53fd-4737-9554-adc5231988da")
+			(uuid "047e3cda-61c1-41fc-9b97-8071d1c65136")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1615,6 +1658,12 @@
 		(path "/abb225a5-4b81-4e4a-a0a2-4d8fc5a79761")
 		(sheetname "/")
 		(sheetfile "5V-buck-boost.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1711,7 +1760,7 @@
 			(at 0 -1.17 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d4026030-cf76-48a5-8b02-7f9be3ffda47")
+			(uuid "5d7feedb-1704-4ed0-8d4c-4f4339c32f0c")
 			(effects
 				(font
 					(size 1 1)
@@ -1722,7 +1771,7 @@
 		(property "Value" "100k"
 			(at 0 1.17 180)
 			(layer "F.Fab")
-			(uuid "cd77addc-8409-4176-8c41-d7cbffa69258")
+			(uuid "f30a8b31-7b48-4b91-ad02-cac4e4346a80")
 			(effects
 				(font
 					(size 1 1)
@@ -1735,7 +1784,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5aa40eff-e9f0-4a37-a15b-2101f953684f")
+			(uuid "2b768ad5-2017-4f9f-963e-38128218dce5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1748,7 +1797,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "70374629-a0a8-4ab7-b8d3-858a06bd695f")
+			(uuid "3d0d8ba4-fe0e-44f6-bc6f-9dbb35a7c870")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1811,6 +1860,12 @@
 		(path "/63178f87-26f8-4e87-9af6-5c8bf440aa48")
 		(sheetname "/")
 		(sheetfile "5V-buck-boost.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1907,7 +1962,7 @@
 			(at 0 -2.05 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e932bfaf-2144-4912-b574-8a8bdc809aaf")
+			(uuid "5d4439fe-62c1-4a87-871e-7edb6886c3e3")
 			(effects
 				(font
 					(size 1 1)
@@ -1918,7 +1973,7 @@
 		(property "Value" "1.5uH"
 			(at -0.425007 1.844375 180)
 			(layer "F.Fab")
-			(uuid "6dc3d6a6-4e72-4f18-bc3d-4409277ed88f")
+			(uuid "c9be7db9-5c37-4f71-92b2-19bfe683d048")
 			(effects
 				(font
 					(size 1 1)
@@ -1931,7 +1986,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c3cd1fd5-4adb-4c93-b3d3-87961cd7dda6")
+			(uuid "3859538d-cfad-4f61-aac4-549ecb7ac6f4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1944,7 +1999,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dd6f526d-97de-492e-935d-3945841bf0d9")
+			(uuid "024faea6-d430-4748-ad19-398765901394")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2006,6 +2061,12 @@
 		(path "/d1a7a45b-3859-4143-a845-f31f019ab2bc")
 		(sheetname "/")
 		(sheetfile "5V-buck-boost.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2104,7 +2165,7 @@
 			(at 0 -1.16 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "48021fae-d288-4585-8e71-8e1b64051269")
+			(uuid "32511fbe-5a94-446e-9ced-ee21f753cc5b")
 			(effects
 				(font
 					(size 1 1)
@@ -2115,7 +2176,7 @@
 		(property "Value" "100nF"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "8698b12b-a204-4df0-a68a-c38cc0f774f5")
+			(uuid "d2e6a7bf-55c5-4a56-92a3-5954e809eabf")
 			(effects
 				(font
 					(size 1 1)
@@ -2128,7 +2189,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bc404079-3b41-45b6-b53e-ed4367e684a5")
+			(uuid "49a1b32a-5fa1-48f0-ae9c-ee497d9f0c65")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2141,7 +2202,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "961eff9a-c21a-4449-bf51-ad5eee06e636")
+			(uuid "b19ebdb2-3726-46ac-8cc5-cef053c41098")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2204,6 +2265,12 @@
 		(path "/3856ac5c-d3fd-46f9-aa27-6fa8f1aea080")
 		(sheetname "/")
 		(sheetfile "5V-buck-boost.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2300,7 +2367,7 @@
 			(at 0 -1.17 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "bf2b6c28-f6b9-4d0c-a1f3-88915f43285f")
+			(uuid "a348ed75-2894-4b67-a17d-ad58c61b792c")
 			(effects
 				(font
 					(size 1 1)
@@ -2311,7 +2378,7 @@
 		(property "Value" "100k"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "7f6f17f0-155d-421f-bbc1-385bcb8d9d60")
+			(uuid "8d7cff7e-dc86-4667-9a7c-da6de616cfaa")
 			(effects
 				(font
 					(size 1 1)
@@ -2324,7 +2391,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4760320c-4304-4db4-88ba-d94a88bb4159")
+			(uuid "fb0603b1-6ead-4c37-a89e-bb180dcbc504")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2337,7 +2404,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e0ef1c4a-e765-4058-a372-7262a29053f8")
+			(uuid "086db26a-6139-47b7-8f15-62983ee29c57")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2400,6 +2467,12 @@
 		(path "/d78bc2d1-e12b-40b1-8012-21a258c1f83e")
 		(sheetname "/")
 		(sheetfile "5V-buck-boost.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2496,7 +2569,7 @@
 			(at 0 -1.17 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a3132002-1a60-444e-bdff-b9b82aa4c519")
+			(uuid "a519de86-5fde-430d-bfcb-df12d3d9be27")
 			(effects
 				(font
 					(size 1 1)
@@ -2507,7 +2580,7 @@
 		(property "Value" "68k"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "547cd50e-0757-4aa1-903a-f384d140519c")
+			(uuid "cca688b5-d600-424c-93cd-5a85edf86974")
 			(effects
 				(font
 					(size 1 1)
@@ -2520,7 +2593,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3be2419f-2ea3-46b7-91f9-d77e2e3c5512")
+			(uuid "1c8e99bf-4801-4587-ab11-60ea53281dcd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2533,7 +2606,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "37f8afeb-a64a-4794-9631-2a105e3dca8c")
+			(uuid "9e65ebb5-0826-475a-9d8d-74bc639bfa94")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2583,6 +2656,12 @@
 		(path "/97e088d0-04e1-4a0f-857f-3c9a24d92bad")
 		(sheetname "/")
 		(sheetfile "5V-buck-boost.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2679,7 +2758,7 @@
 			(at 0 -1.43 270)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "006dc104-39c2-4cbd-bbb8-fe119af78cde")
+			(uuid "7e2d8a23-953a-4504-bbd3-eeaa1b31dd48")
 			(effects
 				(font
 					(size 1 1)
@@ -2690,7 +2769,7 @@
 		(property "Value" "22uF"
 			(at 0 1.43 270)
 			(layer "F.Fab")
-			(uuid "5f77f1f3-fed3-478f-b926-18c02eede762")
+			(uuid "b377ce81-1aee-4305-a7aa-6c6c33edd74c")
 			(effects
 				(font
 					(size 1 1)
@@ -2703,7 +2782,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c9ae8c00-b817-4f73-b370-013ab0182426")
+			(uuid "8194778b-064b-4988-b92e-ee55ab2cafe1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2716,7 +2795,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "42b55edb-bd4c-436c-9229-3d5de65a2835")
+			(uuid "eb80e611-7f4b-4fa4-8d1b-0ffc59f427f8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2779,6 +2858,12 @@
 		(path "/fee91343-47dd-4e80-aa4a-c2670b54074a")
 		(sheetname "/")
 		(sheetfile "5V-buck-boost.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2875,7 +2960,7 @@
 			(at 0 -1.43 270)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "cc1a2478-6aa7-4b0e-ae51-251e0f79ba0a")
+			(uuid "bdf3bf1e-06ad-4ca8-b8c7-18b8f8ef71d6")
 			(effects
 				(font
 					(size 1 1)
@@ -2886,7 +2971,7 @@
 		(property "Value" "22uF"
 			(at 0 1.43 270)
 			(layer "F.Fab")
-			(uuid "03a9fbcb-72ac-442e-b0e9-27a399605b87")
+			(uuid "5a8b43de-7178-453f-bceb-2d9e83436261")
 			(effects
 				(font
 					(size 1 1)
@@ -2899,7 +2984,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e7d25f72-872c-4668-adc6-9e3f606f451a")
+			(uuid "b1769c77-4e87-42f9-9d99-043d6112c0fa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2912,7 +2997,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a965b2c9-d964-4cec-87e8-74f7a6a6e667")
+			(uuid "89f91b46-1ae0-47e5-984d-d1127be72ee4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2975,6 +3060,12 @@
 		(path "/8250ed8b-8ebc-4de4-ba84-f72b0cc9938a")
 		(sheetname "/")
 		(sheetfile "5V-buck-boost.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3069,7 +3160,7 @@
 			(at 0.64 -2.608 270)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "87eb5fef-a580-408c-90f9-73736d432886")
+			(uuid "2a750e2e-4a06-4ea3-9fe0-ac4353c67f41")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -3080,7 +3171,7 @@
 		(property "Value" "TPS63070"
 			(at 3.94 0.095 0)
 			(layer "F.Fab")
-			(uuid "6ef741c4-b6db-44c2-82b6-5b9b5e05e04f")
+			(uuid "9acebb74-afa4-41b0-a0b1-25b45f2fee1c")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -3093,7 +3184,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "32576067-c963-4b8d-a0f1-4e8657d79737")
+			(uuid "7f79d954-03de-496e-898d-90a299d5bc0d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3106,7 +3197,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ea22e321-a4d3-49ae-8fab-25ce44a337fb")
+			(uuid "7083781d-4e29-4701-b8f4-e7f3295f631e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3155,6 +3246,12 @@
 		(path "/36929f19-4806-4c43-85ef-f5516897cd06")
 		(sheetname "/")
 		(sheetfile "5V-buck-boost.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "12,13" "15" "14" "1" "3" "11" "9" "5" "6" "2" "10" "4" "7,8")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3620,7 +3717,7 @@
 			(at 0 -1.55 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "22b8d007-01a2-4ca4-9f67-0c74d817bf6f")
+			(uuid "7c8edcf1-d7d2-41a4-85c8-76d496b1920b")
 			(effects
 				(font
 					(size 1 1)
@@ -3631,7 +3728,7 @@
 		(property "Value" "FerriteBead"
 			(at -2.375 1.565 180)
 			(layer "F.Fab")
-			(uuid "95f1bea3-bff7-4eb4-a19c-1cfc963c2636")
+			(uuid "1aef73f1-ad4c-4d5c-8e63-24b966fc7000")
 			(effects
 				(font
 					(size 1 1)
@@ -3644,7 +3741,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "83164ac5-8e8a-4c7e-b8e2-b6bbe139a0ff")
+			(uuid "4635c242-9b4d-402a-99e8-e921dace852e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3657,7 +3754,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aea81b30-42ec-48ca-9058-b2dd524dc771")
+			(uuid "dd16c95f-550b-4a5e-b5c4-48865124992f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3720,6 +3817,12 @@
 		(path "/2a71cc5f-9b9a-4c4e-a55d-f26cc2d7443f")
 		(sheetname "/")
 		(sheetfile "5V-buck-boost.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3806,69 +3909,24 @@
 			)
 		)
 	)
+	(gr_rect
+		(start -18.42 -14.65)
+		(end 33.06 32.33)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "250c6c44-fb97-4737-aacf-81eff4006ceb")
+	)
 	(segment
-		(start 5.29 -0.1825)
-		(end 5.0675 -0.405)
+		(start -5.5 0.605)
+		(end -5.5 -0.125)
 		(width 0.15)
 		(layer "F.Cu")
-		(net "/5V_PHY")
-		(uuid "50685dad-5af0-4a1d-840a-3178f0bba9a2")
-	)
-	(segment
-		(start 5.29 0.865)
-		(end 5.29 -0.1825)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "/5V_PHY")
-		(uuid "78c8cb9c-7469-4fca-89a8-a2c797616d7c")
-	)
-	(segment
-		(start -2.16 2.175)
-		(end -2.78 2.175)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "/5V_PHY")
-		(uuid "aec6b133-b1f0-40b7-b3d5-65cbcf731fd9")
-	)
-	(via
-		(at -2.78 2.175)
-		(size 0.46)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "/5V_PHY")
-		(uuid "da77023f-d3dd-4804-94ad-53c458fb6119")
-	)
-	(via
-		(at 5.25 -1.265)
-		(size 0.46)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "/5V_PHY")
-		(uuid "ee00a1e9-3573-4022-b893-fa7230598e6b")
-	)
-	(segment
-		(start -2.78 2.175)
-		(end 4.21 2.175)
-		(width 0.15)
-		(layer "B.Cu")
-		(net "/5V_PHY")
-		(uuid "76d75a43-b904-47ed-b569-dd1ccd6e9c81")
-	)
-	(segment
-		(start 4.21 2.175)
-		(end 5.25 1.135)
-		(width 0.15)
-		(layer "B.Cu")
-		(net "/5V_PHY")
-		(uuid "ad041e6e-ed15-4fec-9e09-ad51c0db1ccb")
-	)
-	(segment
-		(start 5.25 1.135)
-		(end 5.25 -1.265)
-		(width 0.15)
-		(layer "B.Cu")
-		(net "/5V_PHY")
-		(uuid "e40f6d08-23bb-4f15-a28f-db3695f25f00")
+		(net "VCC")
+		(uuid "0a0e3139-c922-4e15-912b-4c921ee0ae79")
 	)
 	(segment
 		(start 0 -1.725)
@@ -4262,12 +4320,68 @@
 		(uuid "f08208ee-87fc-4cd6-9e69-dfea2f97ea6c")
 	)
 	(segment
-		(start -5.5 0.605)
-		(end -5.5 -0.125)
+		(start 5.29 -0.1825)
+		(end 5.0675 -0.405)
 		(width 0.15)
 		(layer "F.Cu")
-		(net "VCC")
-		(uuid "0a0e3139-c922-4e15-912b-4c921ee0ae79")
+		(net "/5V_PHY")
+		(uuid "50685dad-5af0-4a1d-840a-3178f0bba9a2")
+	)
+	(segment
+		(start 5.29 0.865)
+		(end 5.29 -0.1825)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "/5V_PHY")
+		(uuid "78c8cb9c-7469-4fca-89a8-a2c797616d7c")
+	)
+	(segment
+		(start -2.16 2.175)
+		(end -2.78 2.175)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "/5V_PHY")
+		(uuid "aec6b133-b1f0-40b7-b3d5-65cbcf731fd9")
+	)
+	(via
+		(at -2.78 2.175)
+		(size 0.46)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "/5V_PHY")
+		(uuid "da77023f-d3dd-4804-94ad-53c458fb6119")
+	)
+	(via
+		(at 5.25 -1.265)
+		(size 0.46)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "/5V_PHY")
+		(uuid "ee00a1e9-3573-4022-b893-fa7230598e6b")
+	)
+	(segment
+		(start -2.78 2.175)
+		(end 4.21 2.175)
+		(width 0.15)
+		(layer "B.Cu")
+		(net "/5V_PHY")
+		(uuid "76d75a43-b904-47ed-b569-dd1ccd6e9c81")
+	)
+	(segment
+		(start 4.21 2.175)
+		(end 5.25 1.135)
+		(width 0.15)
+		(layer "B.Cu")
+		(net "/5V_PHY")
+		(uuid "ad041e6e-ed15-4fec-9e09-ad51c0db1ccb")
+	)
+	(segment
+		(start 5.25 1.135)
+		(end 5.25 -1.265)
+		(width 0.15)
+		(layer "B.Cu")
+		(net "/5V_PHY")
+		(uuid "e40f6d08-23bb-4f15-a28f-db3695f25f00")
 	)
 	(segment
 		(start -1.4 0.225)
@@ -4383,27 +4497,51 @@
 	)
 	(segment
 		(start -0.5 -1.163)
-		(end -0.5 -1.375)
+		(end -0.5 -1.440111)
 		(width 0.35)
 		(layer "F.Cu")
 		(net "/5V_L1")
-		(uuid "0fc78e56-01be-472b-9311-2fcf3416727e")
+		(uuid "0aca96a3-cb40-4708-ae39-ca50c1ecb154")
 	)
 	(segment
-		(start -0.5 -1.375)
-		(end -1.095 -1.97)
+		(start -0.63 -2.65)
+		(end -1.075 -3.095)
 		(width 0.35)
 		(layer "F.Cu")
 		(net "/5V_L1")
-		(uuid "7256caf7-8e1b-40f1-810d-158bf3e04077")
+		(uuid "149e3c11-d98e-4ec3-a00b-e9996d6f6ae5")
 	)
 	(segment
-		(start -1.095 -1.97)
-		(end -1.095 -3.095)
+		(start -0.5 -1.440111)
+		(end -0.63 -1.570111)
 		(width 0.35)
 		(layer "F.Cu")
 		(net "/5V_L1")
-		(uuid "d2dc96e7-517a-48c3-b9ca-0b8857dfae70")
+		(uuid "34f443dd-9a94-4b06-a8c0-d103f3e0d18f")
+	)
+	(segment
+		(start -0.63 -1.570111)
+		(end -0.63 -2.65)
+		(width 0.35)
+		(layer "F.Cu")
+		(net "/5V_L1")
+		(uuid "d409b750-9253-4f1e-a211-fded902c7a9a")
+	)
+	(segment
+		(start 0.63 -2.65)
+		(end 1.075 -3.095)
+		(width 0.35)
+		(layer "F.Cu")
+		(net "/5V_L2")
+		(uuid "87b591ae-16f5-44d2-a5e7-eee6315e3bd0")
+	)
+	(segment
+		(start 0.5 -1.375)
+		(end 0.63 -1.505)
+		(width 0.35)
+		(layer "F.Cu")
+		(net "/5V_L2")
+		(uuid "92ca6036-d3be-4565-b773-4847187ecfb0")
 	)
 	(segment
 		(start 0.5 -1.163)
@@ -4411,23 +4549,71 @@
 		(width 0.35)
 		(layer "F.Cu")
 		(net "/5V_L2")
-		(uuid "b231f81f-6a7f-4e24-b5bb-9e160c5cd847")
+		(uuid "b660282e-9f9d-4144-9ed6-f4e81eb08452")
 	)
 	(segment
-		(start 0.5 -1.375)
-		(end 1.075 -1.95)
+		(start 0.63 -1.505)
+		(end 0.63 -2.65)
 		(width 0.35)
 		(layer "F.Cu")
 		(net "/5V_L2")
-		(uuid "eb82dd6b-5a90-4e5a-8d93-526d4ee42405")
+		(uuid "d3f3b40c-a485-4223-9f79-033a214a8968")
 	)
 	(segment
-		(start 1.075 -1.95)
-		(end 1.075 -3.095)
-		(width 0.35)
+		(start -0.25 1.15)
+		(end -0.25 1.535)
+		(width 0.15)
 		(layer "F.Cu")
-		(net "/5V_L2")
-		(uuid "ecd1e264-bb18-479b-95ab-7c504fea53c7")
+		(net "/5V_PG")
+		(uuid "48472e9e-4efc-4be2-9ff4-df3dd166b132")
+	)
+	(segment
+		(start -0.36 1.645)
+		(end -0.61 1.645)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "/5V_PG")
+		(uuid "6222d0cc-3a03-43f5-8a33-a058662464ec")
+	)
+	(segment
+		(start -0.61 1.645)
+		(end -1.14 2.175)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "/5V_PG")
+		(uuid "ccdc9b03-618b-4da9-819d-0f49d059ca2d")
+	)
+	(segment
+		(start -0.25 1.535)
+		(end -0.36 1.645)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "/5V_PG")
+		(uuid "e5d69f63-42bb-4ade-ab9e-073c19fdb5bb")
+	)
+	(segment
+		(start 5.29 1.885)
+		(end 5.21 1.885)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "Net-(R2-Pad2)")
+		(uuid "18f006ee-1bc5-4da5-8b1f-faa0336a5c2e")
+	)
+	(segment
+		(start 4.92 2.175)
+		(end 4.4 2.175)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "Net-(R2-Pad2)")
+		(uuid "195b5aa4-7657-4fe0-854d-4a6e1311fe3b")
+	)
+	(segment
+		(start 5.21 1.885)
+		(end 4.92 2.175)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "Net-(R2-Pad2)")
+		(uuid "fbf1fdf4-9fdc-4e4c-852a-e382cdd8476a")
 	)
 	(segment
 		(start 1.74 1.604568)
@@ -4500,62 +4686,6 @@
 		(layer "F.Cu")
 		(net "Net-(U1-Vaux)")
 		(uuid "8a6c115d-ddf2-4bd1-9945-ca070cbe1721")
-	)
-	(segment
-		(start -0.25 1.15)
-		(end -0.25 1.535)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "/5V_PG")
-		(uuid "48472e9e-4efc-4be2-9ff4-df3dd166b132")
-	)
-	(segment
-		(start -0.36 1.645)
-		(end -0.61 1.645)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "/5V_PG")
-		(uuid "6222d0cc-3a03-43f5-8a33-a058662464ec")
-	)
-	(segment
-		(start -0.61 1.645)
-		(end -1.14 2.175)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "/5V_PG")
-		(uuid "ccdc9b03-618b-4da9-819d-0f49d059ca2d")
-	)
-	(segment
-		(start -0.25 1.535)
-		(end -0.36 1.645)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "/5V_PG")
-		(uuid "e5d69f63-42bb-4ade-ab9e-073c19fdb5bb")
-	)
-	(segment
-		(start 5.29 1.885)
-		(end 5.21 1.885)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "Net-(R2-Pad2)")
-		(uuid "18f006ee-1bc5-4da5-8b1f-faa0336a5c2e")
-	)
-	(segment
-		(start 4.92 2.175)
-		(end 4.4 2.175)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "Net-(R2-Pad2)")
-		(uuid "195b5aa4-7657-4fe0-854d-4a6e1311fe3b")
-	)
-	(segment
-		(start 5.21 1.885)
-		(end 4.92 2.175)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "Net-(R2-Pad2)")
-		(uuid "fbf1fdf4-9fdc-4e4c-852a-e382cdd8476a")
 	)
 	(zone
 		(net "GND")
@@ -4895,6 +5025,70 @@
 				(xy -1.72 -1.965) (xy -1.72 -4.065) (xy -1.57 -4.215) (xy 1.58 -4.215) (xy 1.73 -4.065) (xy 1.73 -2.165)
 				(xy 1.53 -1.965)
 			)
+		)
+	)
+	(group "5V-buck-boost"
+		(uuid "459d45d1-84ff-4687-b3d6-c5a7d6206d57")
+		(lib_id "cacophony-blocks:5V-buck-boost")
+		(members "0704f0a2-699f-45ef-8087-6924dae9d610" "07af93bd-e718-4152-a042-6d5ab2b9f301"
+			"08ab0995-31b7-4069-9fef-026584726906" "0a0e3139-c922-4e15-912b-4c921ee0ae79"
+			"0a53d7d5-2f20-4fac-ab4c-2d5260585b46" "0aca96a3-cb40-4708-ae39-ca50c1ecb154"
+			"0f59d07e-d85f-43aa-b6fe-9999aecb360b" "10ff0d8e-3d11-4101-89b1-00f85a0b5bfb"
+			"11914773-47ed-4797-97b7-a27762515abc" "14617438-ce44-40ca-86ce-599a3e976e1f"
+			"1481ec3a-8412-4384-9294-6fbf6115a359" "149e3c11-d98e-4ec3-a00b-e9996d6f6ae5"
+			"17c92423-7983-46b7-8a62-efea801a8a67" "189341f0-9e6c-49a2-8f47-9ebcfa1dda39"
+			"18f006ee-1bc5-4da5-8b1f-faa0336a5c2e" "195b5aa4-7657-4fe0-854d-4a6e1311fe3b"
+			"1a421abc-7c26-4017-80a9-2e38798bd0d1" "1b5dc17c-5c3b-48ea-8e44-4ea4ed7604d8"
+			"1dbfe832-5248-4b07-96b4-05302e3d4f15" "1e91a866-51bd-4dc0-89b5-5974c37557e5"
+			"20ba0754-7097-4f6d-9250-c4da089e6918" "225e00fc-68d0-4829-94de-dc975e84c770"
+			"246d923a-0abe-4545-885c-ffd99e981cc8" "24926ddf-18c4-411e-b18f-c628b4402a2b"
+			"266aee12-646b-4acf-9d04-51a9b9f45192" "2673d264-42af-4d02-8b2a-581da257e055"
+			"2c082948-9adc-49bf-a248-cf80ac6845be" "2e7b5796-2300-4f0e-894b-deb4be7ea1b7"
+			"3263dd0f-b2c4-46ce-86d0-a99ecb8600cd" "34f443dd-9a94-4b06-a8c0-d103f3e0d18f"
+			"37d1fc60-7c7e-4408-8e6d-ac96c02a39b5" "383a3590-6c71-4d66-9fa4-2c2a68efbf78"
+			"38ad897b-8158-4784-98f6-ec1d34ae1249" "3ae15677-db4b-4354-b099-c6917e0ff41f"
+			"3c09eaba-97b7-478a-a129-73a60f554a86" "3d6f975c-a2ec-4252-aece-d9ed5866144b"
+			"3dea0c43-72ae-446e-947a-092a124fe01b" "3e67290c-70a0-4f72-b7ef-8af030397e14"
+			"4749f52f-4e04-4159-a318-96e967ef29e3" "47665984-05ff-4ef1-b3da-ed17d2ccfb0d"
+			"48472e9e-4efc-4be2-9ff4-df3dd166b132" "4947b835-5023-471f-8314-274334a25298"
+			"4deb98f2-7725-44be-9d46-73b01724a1a7" "4eba4036-ac6e-41da-ae4d-41fffa6a9597"
+			"50685dad-5af0-4a1d-840a-3178f0bba9a2" "543363ad-790c-4db9-a637-594fb0fa19dd"
+			"601fe6cb-f350-43b8-b774-ffd161594329" "62130337-0f7d-477a-ac63-08403246a31d"
+			"6222d0cc-3a03-43f5-8a33-a058662464ec" "62341f2f-107d-4549-8966-a805e3f72b4c"
+			"62a93903-4d63-4cc9-adb4-b120ea32724a" "6a7be97f-b2fe-40be-b16d-d524cd19fb1e"
+			"73313724-ae1a-42a1-94f0-924c13e3eb5d" "735f7d3e-56de-42ac-a436-cede20d443c4"
+			"73845f84-5806-43c8-a3f4-cc0dca586b7d" "76d75a43-b904-47ed-b569-dd1ccd6e9c81"
+			"77d3828f-ce0b-43d4-be01-0db265cdbfd4" "77f3d6e2-60c8-4e9c-a773-f067ef5bed0c"
+			"78c8cb9c-7469-4fca-89a8-a2c797616d7c" "7b3fefd8-013d-4885-bd0a-562755eaa083"
+			"7ec700de-87a3-4ce3-b7e2-dc4e62cfaed8" "7ef006c3-abaa-443c-bea7-e49e691f452f"
+			"8203f959-df6b-4f71-b0fb-a77c9b1b6f7f" "82c60302-c77c-4896-a960-37c11bfc5456"
+			"83304ba2-9d88-42da-84e5-1afca14771f5" "86509b59-a5fd-469e-9110-31d7666fbb08"
+			"86fb3771-0e56-4022-b7ab-49b276965774" "87b591ae-16f5-44d2-a5e7-eee6315e3bd0"
+			"8a6c115d-ddf2-4bd1-9945-ca070cbe1721" "8d9e6abe-1a72-4a7b-95d3-7372cc31f790"
+			"8ffc31d9-30a9-435e-8ee4-1e141dc3d476" "92ca6036-d3be-4565-b773-4847187ecfb0"
+			"930085e5-bbad-493f-b9bd-7df5906db5b7" "9a5e5b57-b22c-4547-9d01-cab75ec205d8"
+			"a11f13da-d977-4fc1-8c52-c8951c547440" "a1474081-03f7-4643-8d9b-8bf33525c3b4"
+			"a605da57-3063-4cee-bb3d-03c1ecb7d776" "a7a98b98-8a2c-475a-9a61-596488070036"
+			"a83e35fe-ba4a-4c05-b65e-6a1ceec035f3" "a99847e6-0a12-452d-a79f-2220fb65a272"
+			"ad041e6e-ed15-4fec-9e09-ad51c0db1ccb" "aec6b133-b1f0-40b7-b3d5-65cbcf731fd9"
+			"af7cdb57-3a09-48b6-88ec-8613f71af0f8" "b660282e-9f9d-4144-9ed6-f4e81eb08452"
+			"b69d9f32-390a-4b00-9e84-fd6ce835bcde" "b99442e0-bab0-4137-8855-fd8a17e6abc3"
+			"bcad13c6-3cb1-4b96-92a6-b02c0bb0f46b" "bdcd1c3b-bec9-4b07-8aa7-4587c6a90808"
+			"bdda020d-7e6e-4186-8e1b-c2e69b012c0e" "c27b2bd0-93e3-4242-8dc1-dd9b42c64b4e"
+			"c3866772-05ec-4f80-b260-538d3c51732a" "ca1e0f74-4c8a-4504-a45a-a07eea5a6c3e"
+			"ccdc9b03-618b-4da9-819d-0f49d059ca2d" "d3f3b40c-a485-4223-9f79-033a214a8968"
+			"d409b750-9253-4f1e-a211-fded902c7a9a" "d60215fb-e507-4bbc-bb29-f2f72948d219"
+			"d8224c96-1de0-47cf-8bce-e472381d4a06" "da46d3aa-df29-44ec-a7bc-f7964ed1425f"
+			"da77023f-d3dd-4804-94ad-53c458fb6119" "dcf25de3-b65e-4ab4-a055-5ed9a55da1ca"
+			"deb3ed57-f079-44bc-8e99-ea7eefc0b284" "e01a3c52-c50c-4770-b234-9681cc6d6e5e"
+			"e264a5ba-0c7a-43c6-9ff2-485dc3f57545" "e2825972-64b3-4526-8e99-4b8d55ceb5fa"
+			"e3a83567-7ed5-4a58-a101-e73dd28812c8" "e3f976a5-f265-4afb-9091-001af62bcce9"
+			"e40f6d08-23bb-4f15-a28f-db3695f25f00" "e5d69f63-42bb-4ade-ab9e-073c19fdb5bb"
+			"e6a3c6f4-d312-4f2f-bb46-7ad327444028" "e6ea6e70-d884-4a83-bd46-dfcf505e8d53"
+			"e7702123-8791-4c17-9b02-a317065fe3e3" "ec559fa0-a082-442e-8834-402ae93c73e2"
+			"ee00a1e9-3573-4022-b893-fa7230598e6b" "ef6a7f13-e337-4fe2-94e3-9cfc478b63f5"
+			"f08208ee-87fc-4cd6-9e69-dfea2f97ea6c" "f9efe808-6acf-4e3f-b09b-ff8db084ef56"
+			"fbf1fdf4-9fdc-4e4c-852a-e382cdd8476a" "ffff4adf-0eb3-4af3-ba20-a0d5b878f633"
 		)
 	)
 	(embedded_fonts no)
