@@ -20785,6 +20785,18 @@
 		)
 		(symbol "K2-6639SP-O4SC-04_0_1"
 			(arc
+				(start 3.81 -0.25)
+				(mid 3.81 -0.25)
+				(end 3.81 -0.25)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
 				(start -2.29 2.79)
 				(mid -2.29 2.795)
 				(end -2.29 2.8)
@@ -20861,18 +20873,6 @@
 				(start -2.29 -0.25)
 				(mid -2.29 -0.25)
 				(end -2.29 -0.25)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 3.81 -0.25)
-				(mid 3.81 -0.25)
-				(end 3.81 -0.25)
 				(stroke
 					(width 0)
 					(type default)
@@ -36439,8 +36439,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "U"
-			(at 0 10.16 0)
+		(property "Reference" "U204"
+			(at 0 -0.254 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36450,7 +36450,7 @@
 			)
 		)
 		(property "Value" "TPS259474LRPWR"
-			(at 0 -19.05 0)
+			(at 0 9.398 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36470,7 +36470,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps25947.pdf"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36505,7 +36505,7 @@
 		)
 		(symbol "TPS259474LRPWR_0_1"
 			(rectangle
-				(start -19.05 7.62)
+				(start -19.05 15.748)
 				(end 20.32 -16.51)
 				(stroke
 					(width 0)
@@ -36516,7 +36516,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -21.59 0 0)
+				(at -21.59 3.81 0)
 				(length 2.54)
 				(name "EN/UVLO"
 					(effects
@@ -36534,7 +36534,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -21.59 5.08 0)
+				(at -21.59 13.97 0)
 				(length 2.54)
 				(name "IN"
 					(effects
@@ -36626,7 +36626,7 @@
 		)
 		(symbol "TPS259474LRPWR_1_1"
 			(text "1.2V"
-				(at -9.906 -5.08 0)
+				(at -16.256 -4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -36634,7 +36634,7 @@
 				)
 			)
 			(text "1.2V, Max 5V"
-				(at -2.54 0 0)
+				(at -12.192 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -36642,7 +36642,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -21.59 -5.08 0)
+				(at -21.59 -6.35 0)
 				(length 2.54)
 				(name "OVLO"
 					(effects
@@ -36678,7 +36678,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 22.86 0 180)
+				(at 22.86 3.81 180)
 				(length 2.54)
 				(name "PGTH"
 					(effects
@@ -36696,7 +36696,7 @@
 				)
 			)
 			(pin power_out line
-				(at 22.86 5.08 180)
+				(at 22.86 13.97 180)
 				(length 2.54)
 				(name "OUT"
 					(effects
