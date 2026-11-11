@@ -2930,7 +2930,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5291490"
+		(property "LCSC Part" "C5291490"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10636,7 +10636,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C82899"
+		(property "LCSC Part" "C82899"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15965,7 +15965,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C585422"
+		(property "LCSC Part" "C585422"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17410,7 +17410,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC Part" ""
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21471,7 +21471,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C530666"
+		(property "LCSC Part" "C530666"
 			(at -2.54 -6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21639,7 +21639,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C155484"
+		(property "LCSC Part" "C155484"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21888,7 +21888,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C90665"
+		(property "LCSC Part" "C90665"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22137,7 +22137,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C136648"
+		(property "LCSC Part" "C136648"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23552,7 +23552,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C910544"
+		(property "LCSC Part" "C910544"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24670,7 +24670,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C82942"
+		(property "LCSC Part" "C82942"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26786,7 +26786,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C393941"
+		(property "LCSC Part" "C393941"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29027,7 +29027,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C139580"
+		(property "LCSC Part" "C139580"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35530,7 +35530,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2686054"
+		(property "LCSC Part" "C2686054"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35917,7 +35917,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C264992"
+		(property "LCSC Part" "C264992"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38012,7 +38012,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C9865"
+		(property "LCSC Part" "C9865"
 			(at 0 10.16 0)
 			(show_name no)
 			(do_not_autoplace no)
